@@ -1,0 +1,20 @@
+p{
+			color: green;
+		}
+		.ex01{
+			color: brown;
+		}
+		.mb{
+			color: yellow;
+		}
+		.mn{
+			color: red
+		}
+		#ex02{
+			background-color: pink;
+		}
+		#abc{
+			background-color: blue;
+			width: 300px;
+			height: 200px;
+		}

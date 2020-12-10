@@ -1,0 +1,7 @@
+p{
+	/*display: inline;*/
+	display: inline-block;
+}
+p:hover{
+	display: none;
+}
