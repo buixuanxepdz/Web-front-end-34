@@ -32,33 +32,56 @@ body{
 	font-size: 14px;
 }
 #chat1{
-	width: 10%;
-	margin-top: 5px;
-	height: 100%;
-	margin-bottom: 10px;
 }
 nav{
-	background-image: url('../imagesb3/unit 3 +4/Thanh menu.jpg');
+	background-color: #555555;
 	width: 732px;
 	height: 32px;
-	margin-top: -3px;
+	line-height: 32px;
+	margin-top: 4px;
 }
-ul{
-	list-style: none;
+a{
+	text-decoration: none;
+	color: #FF6600;
 }
-ul li{
-	padding-left: 10px;
-	padding-right: 10px;
-	border-right: 1px solid black; 
-	line-height: 30px;
+.a1{
+	width: 10%;
 	float: left;
 	display: inline-block;
-	margin-right: 10px;
+	border-right: 1px solid black;
+	text-align: center;
 }
-li:hover{
-	color: white;
-	background-color: red;
-	cursor: pointer;
+.a2{
+	width: 10%;
+	float: left;
+	display: inline-block;
+	border-right: 1px solid black;
+	text-align: center;
+}
+.a3{
+	width: 10%;
+	float: left;
+	display: inline-block;
+	border-right: 1px solid black;
+	text-align: center;
+}
+.a4{
+	width: 10%;
+	float: left;
+	display: inline-block;
+	border-right: 1px solid black;
+	text-align: center;
+}
+.a5{
+	width: 10%;
+	display: inline-block;
+	border-right: 1px solid black;
+	text-align: center;
+}
+#vachcam{
+	background-color: #FF6600;
+	width: 100%;
+	height: 5px;
 }
 #A{
 	background-color: white;
@@ -570,7 +593,7 @@ li:hover{
 #duoi{
 	border-top: 2px solid #FF6600;
 	width: 100%;
-	height: 72px;
+	height: 76px;
 	background-color: #4F4F4F;
 	margin-top: -4px;
 	display: inline-block;
