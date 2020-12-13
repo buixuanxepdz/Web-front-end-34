@@ -44,6 +44,9 @@ a{
 	text-decoration: none;
 	color: #FF6600;
 }
+a:hover{
+	color: white;
+}
 .a1{
 	width: 10%;
 	float: left;
