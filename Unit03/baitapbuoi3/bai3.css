@@ -1,0 +1,587 @@
+body{
+	width: 100%;
+	height: 1350px;
+}
+#cha{
+	background-image: url('../imagesb3/unit 3 +4/tuyet.jpg');
+	background-repeat: repeat-y;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 100px;
+}
+#con{
+	width: 60%;
+	height: 1330px;
+	border: 3px solid white;
+	display: inline-block;
+	background-image: url('../imagesb3/unit 3 +4/123.jpg');
+	background-repeat: no-repeat;
+	margin-left: 150px;
+	margin-top: 8px;
+}
+#chau1{
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	margin-top: 350px;
+	padding-bottom: 3px;
+	text-align: left;
+	font-family: arial;
+	color: #FF6600;
+	font-size: 14px;
+}
+#chat1{
+	width: 10%;
+	margin-top: 5px;
+	height: 100%;
+	margin-bottom: 10px;
+}
+nav{
+	background-image: url('../imagesb3/unit 3 +4/Thanh menu.jpg');
+	width: 732px;
+	height: 32px;
+	margin-top: -3px;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid black; 
+	line-height: 30px;
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+}
+li:hover{
+	color: white;
+	background-color: red;
+	cursor: pointer;
+}
+#A{
+	background-color: white;
+	width: 100%;
+	height: 20px; 
+	padding-top: 3px;
+}
+#chau2{
+	width: 100%;
+	height: 850px;
+	background-color: white;
+	display: inline-block;
+}
+#tong{
+	width: 20%;
+	height: 850px;
+	background-color: white;
+	float: left;
+}
+#menu1{
+	background-image: url('../imagesb3/unit 3 +4/menu_bar.gif');
+	width: 90%;
+	height: 130px;
+	border:1px solid black;
+	background-repeat: no-repeat;
+	font-family:arial;
+	font-size: 12px;
+	display: inline-block;
+}
+.mn1{
+	margin-top: 5px;
+	color: white;
+}
+.mn1:hover{
+	color: blue;
+	cursor: pointer;
+}
+.mn2{
+	margin-top: 15px;
+	height: 20%;
+	margin-left: 4px;
+}
+.mn2:hover{
+	color: red;
+	cursor: pointer;
+}
+.mn3{
+	height: 20%;
+	margin-left: 4px;
+}
+.mn3:hover{
+	color: red;
+	cursor: pointer;
+}
+.mn4{
+	height: 20%;
+	margin-left: 4px;
+}
+.mn4:hover{
+	color: red;
+	cursor: pointer;
+}
+.mn5{
+	height: 20%;
+	margin-left: 4px;
+}
+.mn5:hover{
+	color: red;
+	cursor: pointer;
+}
+#menu2{
+	background-image: url('../imagesb3/unit 3 +4/menu_bar.gif');
+	width: 90%;
+	height: 140px;
+	border:1px solid black;
+	background-repeat: no-repeat;
+	font-family:arial;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.so1{
+	margin-top: 5px;
+	color: white;
+}
+.so1:hover{
+	color: blue;
+	cursor: pointer;
+}
+.so2{
+	margin-top: 15px;
+	height: 15%;
+	margin-left: 4px;
+}
+.so2:hover{
+	color: red;
+	cursor: pointer;
+}
+.so3{
+	height: 20%;
+	margin-left: 4px;
+}
+.so3:hover{
+	color: red;
+}
+.so4{
+	height: 15%;
+	margin-left: 4px;
+	margin-top: 3px;
+}
+.so4:hover{
+	color: red;
+	cursor: pointer;
+}
+.so5{
+	height: 15%;
+	margin-left: 4px;
+}
+.so5:hover{
+	color: red;
+	cursor: pointer;
+}
+#anh1{
+	margin-top: 10px;
+}
+#anh2{
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.anhA{
+	width: 130px;
+	height: 100px;
+}
+#giua{
+	display: inline-block;
+	width: 60%;
+	height: 850px;
+	background-color: white;
+	float: left;
+}
+.radius{
+	width: 100%;
+	height: 80px;
+	font-family: arial;
+	font-size: 12px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	background-color: #FF9933;
+	display: inline-block;
+}
+.zent{
+	margin-top: 8px;
+	text-align: justify;
+	font-style: italic;
+	width: 380px;
+	margin-left: 30px;
+	color: white;
+}
+.tab1{
+	display: inline-block;
+	width: 100%;
+	background-image: url('../imagesb3/unit 3 +4/main_bar_left.gif');
+	background-repeat: no-repeat;
+	height: 30px;
+}
+.cntt{
+	color: white;
+	font-family: arial;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 13px;
+}
+.PM{
+	color:#FF9933;
+	font-family: arial; 
+	margin-top: 10px;
+}
+.PM:hover{
+	color: blue;
+	cursor: pointer;
+}
+.but{
+	width: 100%;
+	height: 115px;
+	float: left;
+}
+.pen{
+	display: inline-block;
+	width: 150px;
+	height: 115px;
+	background-image: url('../imagesb3/unit 3 +4/phanmem.gif');
+}
+.textzent{
+	font-size: 12px;
+	font-family: arial;
+	width: 270px;
+	height: 100%;
+	text-align: justify;
+	margin-bottom: 20px;
+	float: right;
+}
+#chitiet{
+	color: #FF9933;
+	display: inline-block;
+}
+#chitiet:hover{
+	color: blue;
+	cursor: pointer;
+}
+.tab2{
+	display: inline-block;
+	width: 100%;
+	background-image: url('../imagesb3/unit 3 +4/main_bar_right.gif');
+	background-repeat: no-repeat;
+	height: 30px;
+	margin-top: 10px;
+}
+.giaoduc{
+	color: white;
+	font-family: arial;
+	margin-right: 5px;
+	text-align: right;
+	font-size: 13px;
+	margin-top: 5px;
+}
+.LTV{
+	color: orange;
+	text-align: right;
+	font-family: arial;
+
+}
+.LTV:hover{
+	color:blue; 
+	cursor: pointer;
+}
+.LTV2{
+	width: 100%;
+	height: 115px;
+	display: inline-block;
+	float: left;
+}
+.text{
+	width: 260px;
+	height: 115px;
+	text-align:justify;
+	font-size: 12px;
+	font-family: arial;
+	display: inline-block;
+	float: left;
+}
+.chitiet1{
+	display: inline-block;
+	color: #FF9933;
+}
+.chitiet1:hover{
+	color: blue;
+	cursor: pointer;
+}
+.leroi{
+	width: 150px;
+	height: 110px;
+	display:inline-block;
+	float: left;
+	margin-left: 290px;
+	margin-top: -80px;
+}
+.tab3{
+	display: inline-block;
+	width: 100%;
+	background-image: url('../imagesb3/unit 3 +4/main_bar_left.gif');
+	background-repeat: no-repeat;
+	height: 30px;
+}
+.thuongmai{
+	color: white;
+	font-family: arial;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: left;
+	font-size: 13px;
+}
+.doanhnghiep{
+	font-family: arial;
+	color: #FF9933;
+}
+.doanhnghiep:hover{
+	cursor: pointer;
+	color: blue;
+}
+.DN{
+	width: 150px;
+	height: 115px;
+	border: 1px solid #339966;
+	float: left;
+}
+.textdn{
+	width: 270px;
+	height: 115px;
+	display: inline-block;
+	font-size: 12px;
+	font-family: arial;
+	text-align: justify;
+	margin-left: 10px;
+}
+.chitiet2{
+	display: inline-block;
+	color: #FF9933;
+}
+.chitiet2:hover{
+	color: blue;
+	cursor: pointer;
+}
+.tab4{
+	display: inline-block;
+	width: 100%;
+	background-image: url('../imagesb3/unit 3 +4/main_bar_right.gif');
+	background-repeat: no-repeat;
+	height: 30px;
+	margin-top: 15px;
+}
+.Dichvu{
+	color: white;
+	font-family: arial;
+	margin-right: 5px;
+	margin-top: 5px;
+	text-align: right;
+	font-size: 13px;
+}
+.aocuoi{
+	color: orange;
+	text-align: right;
+	font-family: arial;
+}
+.aocuoi:hover{
+	color: blue;
+	cursor: pointer;
+}
+.anhvien{
+	width: 100%;
+	height: 115px;
+	display: inline-block;
+}
+.aocuoi1{
+	width: 260px;
+	height: 115px;
+	text-align:justify;
+	font-size: 12px;
+	font-family: arial;
+	display: inline-block;
+}
+.chitiet3{
+	display: inline-block;
+	color: #FF9933;
+}
+.chitiet3:hover{
+	cursor: pointer;
+	color: blue;
+}
+.avac{
+	width: 170px;
+	height: 120px;
+	display:inline-block;
+	margin-left: 270px;
+	margin-top: -80px;
+	float: left;
+}
+#phai{
+	width: 20%;
+	height: 850px;
+	display: inline-block;
+	float: left;
+}
+#tongphai{
+	width: 100%;
+	height: 850px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+#menuphai{
+	background-image: url('../imagesb3/unit 3 +4/menu_bar.gif');
+	width: 135px;
+	height: 100px;
+	border:1px solid black;
+	background-repeat: no-repeat;
+	font-family:arial;
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.mnp1{
+	margin-left: 15px;
+	margin-top: 5px;
+	color: white;
+	display: inline-block;
+}
+.mnp1:hover{
+	cursor: pointer;
+	color: blue;
+}
+.mnp2{
+	margin-top: 15px;
+	height: 20%;
+	margin-left: 4px;
+	display: inline-block;
+}
+.mnp3{
+	height: 20%;
+	margin-left: 4px;
+	display: inline-block;
+}
+#menuphai2{
+	background-image: url('../imagesb3/unit 3 +4/menu_bar.gif');
+	width: 135px;
+	height: 180px;
+	border:1px solid black;
+	background-repeat: no-repeat;
+	font-family:arial;
+	font-size: 12px;
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.so1p{
+	margin-top: 5px;
+	color: white;
+	display: inline-block;
+	margin-left: 15px;
+}
+.so1p:hover{
+	cursor: pointer;
+	color: blue;
+}
+.so2p{
+	margin-top: 10px;
+	height: 15%;
+	margin-left: 4px;
+	display: inline-block;
+}
+.so2p:hover{
+	cursor: pointer;
+	color: red;
+}
+.so3p{
+	height: 15%;
+	margin-left: 4px;
+	display: inline-block;
+}
+.so3p:hover{
+	cursor: pointer;
+	color: red;
+}
+.so4p{
+	height: 15%;
+	margin-left: 4px;
+	display: inline-block;
+}
+.so4p:hover{
+	cursor: pointer;
+	color: red;
+}
+.so5p{
+	margin-top: 10px;
+	height: 15%;
+	margin-left: 4px;
+	display: inline-block;
+}
+.so5p:hover{
+	cursor: pointer;
+	color: red;
+}
+.so6p{
+	height: 15%;
+	margin-left: 4px;
+	display: inline-block;
+}
+.so6p:hover{
+	cursor: pointer;
+	color: red;
+}
+#anh1p{
+	margin-top: 10px;
+	display: inline-block;
+}
+#anh1sua{
+	width: 100px;
+	height: 90px;
+	margin-left: 10px;
+}
+#anh2p{
+	margin-top: 10px;
+	margin-right: 15px;
+	display: inline-block;
+}
+#anh2sua{
+	width: 130px;
+	height: 100px;
+	margin-left: 10px;
+}	
+#anh3p{
+	margin-top: 10px;
+	margin-right: 15px;
+	display: inline-block;
+}
+#anh3sua{
+	width: 130px;
+	height: 100px;
+	margin-left: 10px;
+}
+#duoi{
+	border-top: 2px solid #FF6600;
+	width: 100%;
+	height: 72px;
+	background-color: #4F4F4F;
+	margin-top: -4px;
+	display: inline-block;
+}
+.zent1{
+	text-align: center;
+	color: white;
+	line-height: 68px;
+	font-family: arial;
+}
+.zent1:hover{
+	cursor: pointer;
+	color: blue;
+}

@@ -1,0 +1,62 @@
+#divcon1{
+	width: 160px;
+	border: 2px solid black;	
+	display:inline-block;
+}
+#divcon1:hover{
+	border-color: green;
+}
+#divcon2{
+	width: 160px;
+	border: 2px solid black;
+	display: inline-block;
+}
+#divcon2:hover{
+	border-color: green;
+}
+#divcon3{
+	width: 160px;
+	border: 2px solid black;
+	display: inline-block;
+}
+#divcon3:hover{
+	border-color: green;
+}
+#divcon4{
+	width: 160px;
+	border: 2px solid black;
+	display: inline-block;
+}
+#divcon4:hover{
+	border-color: green;
+}
+#divcon5{
+	width: 160px;
+	border: 2px solid black;
+	display: inline-block;
+}
+#divcon5:hover{
+	border-color: green;
+}
+#divcon6{
+	width: 160px;
+	border: 2px solid black;
+	display: inline-block;
+}
+#divcon6:hover{
+	border-color: green;
+}
+p{
+	color: orange;
+	font-family: arial; 
+}
+h4{
+	color: red;
+	font-family: arial;
+}
+p:hover{
+	color: brown; 
+}
+h4:hover{
+	color: brown;
+}

@@ -1,0 +1,116 @@
+#cha{
+	width: 800px;
+	height: 100px;
+	background-image: url('../imagesb3/unit 3 +4/131333163_2941428079418277_1417847456912719970_n.png');
+}
+#con1{
+	width: 100%;
+	display: inline-block;
+	height: 40%;
+	margin-left: 10px;
+}
+#chau1{
+	width: 25%;
+	height: 100%;
+	float: left;
+	font-family: arial;
+}
+#chau1:hover{
+	color: red;
+}
+#chau2{
+	width: 25%;
+	height: 100%;
+	float: left;
+	font-family: arial;
+}
+#chau2:hover{
+	color: red;
+}
+#chau3{
+	width: 200px;
+	height: 100%;
+	float: left;
+	font-family: arial;
+}
+#chau3:hover{
+	color: red;
+}
+#chau4{
+	width: 200px;
+	height: 100%;
+	font-family: arial;
+	display: inline-block;
+}
+#chau4:hover{
+	color: red;
+}
+#con2{
+	width: 100%;
+	display: inline-block;
+	height: 50%;
+}
+#A{
+	width: 25%;
+	height: 100%;
+	float: left;
+	font-family: arial;
+}
+#B{
+	width: 25%;
+	height: 100%;
+	float: left;
+	font-family: arial;
+}
+#C{
+	width: 25%;
+	height: 100%;
+	float: left;
+	font-family: arial;
+}
+#D{
+	width: 25%;
+	height: 100%;
+	float: left;
+	margin-top: -10px;
+	font-family: arial;
+}
+p{
+	margin-left:11px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.sale1{
+	margin-left: 50px;
+}
+#A1{
+	font-weight: bold;
+}
+#A1:hover{
+	color: #006600;
+}
+#B1{
+	font-weight: bold;
+}
+#B1:hover{
+	color: #006600;
+}
+#C1{
+	color: #97FFFF;
+	text-decoration: underline;
+}
+#C1:hover{
+	color: #006600;
+}
+#D1{
+	margin-left: 60px;
+	margin-top: 5px;
+	font-weight: normal;
+}
+#D1:hover{
+	color: #006600;
+}
+#A1 ,#B1,#C1{
+	margin-left: 44px;
+	margin-top: -35px;
+}

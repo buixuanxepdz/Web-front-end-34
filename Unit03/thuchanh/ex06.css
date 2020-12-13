@@ -3,5 +3,5 @@ p{
 	display: inline-block;
 }
 p:hover{
-	display: none;
+	color: none;
 }
