@@ -1,0 +1,453 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url('../images/ảnh/bg.jpg');
+	background-repeat: no-repeat;
+}
+#zent{
+	margin:0px 0px 0px 50px; 
+	display: inline-block;
+	height: 100px;
+	width: 1000px;
+	position: relative;
+}
+#zentgr{
+	font-size: 30px;
+	font-family: cursive;
+	float: left;
+}
+/*#phai{
+	text-align: right;
+	display: inline-block;
+	width: 1000px;
+	margin-left: 500px;
+	height: 50px;
+	padding-bottom: 60px;
+}*/
+#ulMenu{
+	display: inline-block;
+	width: 200px;
+	margin-left: 700px;
+	position: absolute;
+	height: 100px;
+}
+#liA{
+	display: inline-block;
+	font-size: 15px;
+	float: left;
+	margin-left: 10px;
+}
+#liB{
+	float: left;
+	margin-left: 10px;
+}
+#liC{
+	float:left;
+	margin-left: 10px;
+}
+#list{
+	display: inline-block;
+	display: flex;
+	width: 160px;
+}
+ul{
+	list-style: none;
+}
+li{
+	font-family: Arial;
+	font-size: 17px;
+}
+li:hover{
+	color: orange;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#TO{
+	width: 650px;
+	margin-left: 100px;
+	display: inline-block;
+	position: relative;
+}
+#hang1{
+	display: inline-block;
+	margin-left: 50px;
+	width: 600px;
+	height: 180px;
+	margin-left: 50px;
+}
+#anh1{
+	width: 180px;
+	height: 200px;
+	float: left;
+}
+#zentphone{
+	width: 180px;
+	height: 32px;
+	background-color: black;
+	margin-top: 120px;
+	color: white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 12px;
+}
+#zentphone:hover{
+	color: red;
+}
+#technews{
+	width: 170px;
+	margin: 0;
+	padding: 0;
+	height: 25px;
+	background-color: #DDDDDD;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px;
+	font-family: arial;
+	padding-left: 10px;  
+	font-weight: bold;
+}
+#technews:hover{
+	padding-top: 2px;
+	color: red;
+	cursor: pointer;
+	transition: 0.4s;
+}
+#anhip{
+	width: 180px;
+	height: 120px;
+	display: inline-block;
+	float: left;
+}
+#anhip:hover{
+	height: 122px;
+	transition: 0.4s;
+}
+#anh2{
+	width: 180px;
+	height: 200px;
+	float: left;
+}
+#travel{
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	height: 25px;
+	background-color: #DDDDDD;
+	width: 170px;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px;
+	padding-left: 10px;
+	font-family: arial;
+	font-weight: bold;
+}
+#travel:hover{
+	padding-top: 2px;
+	color: red;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#travel1{
+	margin-left: 10px;
+	width: 180px;
+	height: 32px;
+	margin-top: 120px;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#travel1:hover{
+	color: red;
+}
+#anhmaybay{
+	width: 180px;
+	height: 120px;
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+}
+#anhmaybay:hover{
+	padding-top: 2px;
+	transition: 0.4s;
+}
+#anh3{
+	width: 180px;
+	height: 200px;
+	float: left;
+}
+#mayanh{
+	width: 180px;
+	height: 120px;
+	margin-left: 20px;
+}
+#mayanh:hover{
+	padding-top: 2px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.photo{
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	height: 25px;
+	background-color: #DDDDDD;
+	width: 170px;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px; 
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: arial;
+}
+.photo:hover{
+	padding-top: 2px;
+	color: red;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.photo1{
+	margin-left: 20px;
+	width: 180px;
+	margin-top: -5px;
+	font-size: 12px;
+	height: 32px;
+	background-color: black;
+	color: white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.photo1:hover{
+	transition: 0.4s;
+	cursor: pointer;
+	color: red;
+}
+#hang2{
+	width: 600px;
+	height: 180px;
+	display: inline-block;
+	margin-left: 50px;
+}
+#anh4{
+	width: 180px;
+	height: 150px;
+	float: left;
+}
+.world{
+	padding: 0;
+	margin: 0;
+	height: 25px;
+	background-color: #DDDDDD;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px;
+	padding-left: 10px;
+	font-family: arial;
+	font-weight: bold; 
+}
+.world:hover{
+	color: red;
+	padding-top: 2px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.gold{
+	height: 35px;
+	margin-top: 120px;
+	font-size: 12px;
+	color: white;
+	background-color: black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.gold:hover{
+	color: red;
+	cursor: pointer;
+	transition: 0.4s;
+}
+#anhtien{
+	width: 180px;
+	height: 120px;
+	float: left;
+}
+#anhtien:hover{
+	padding-top: 2px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#anh5{
+	width: 180px;
+	height: 150px;
+	float: left;
+}
+.movies{
+	padding:0;
+	margin: 0;
+	width: 170px;
+	height: 25px;
+	margin-left: 10px;
+	background-color: #DDDDDD;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px; 
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: arial;
+}
+.movies:hover{
+	padding-top: 2px;
+	color: red;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.batman{
+	padding: 0;
+	margin: 0;
+	margin-top: 120px;
+	width: 180px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	margin-left: 10px;
+	font-size: 12px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.batman:hover{
+	cursor: pointer;
+	color: red;
+}
+#anhphim{
+	width: 180px;
+	height: 120px;
+	margin-left: 10px;
+	float: left;
+}
+#anhphim:hover{
+	padding-top: 2px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#anh6{
+	width: 180px;
+	height: 150px;
+	float: left;
+}
+.cooking{
+	padding: 0;
+	margin: 0;
+	margin-left: 20px;
+	height: 25px;
+	width: 170px;
+	background-color: #DDDDDD;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px;
+	font-family: arial;
+	font-weight: bold;
+	padding-left: 10px; 
+}
+.cooking:hover{
+	color: red;
+	padding-top: 2px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.hoaqua{
+	padding:0;
+	margin: 0;
+	height: 35px;
+	width: 180px;
+	background-color: black;
+	color: white;
+	margin-top: -4px;
+	margin-left: 20px;
+	font-size: 12px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.hoaqua:hover{
+	color: red;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#anhhoaqua{
+	width: 180px;
+	height: 120px;
+	margin-left: 20px;
+}
+#anhhoaqua:hover{
+	padding-top: 1px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#hang3{
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin-left: 50px;
+}
+#anh7{
+	width: 180px;
+	height: 100px;
+	float: left;
+}
+#anh7:hover{
+	padding-top: 1px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#fashion{
+	padding: 0;
+	margin: 0;
+	height: 25px;
+	background-color: #DDDDDD;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px;
+	padding-left: 10px;
+	font-family: arial;
+	font-weight: bold; 
+}
+#fashion:hover{
+	color: red;
+	padding-top: 2px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#fashion1{
+	height: 35px;
+	font-size: 12px;
+	color: white;
+	background-color: black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-bottom: 10px;
+	margin-top: 90px;
+}
+#fashion1:hover{
+	color: red;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#cuoi{
+	width: 1000px;
+	height: 50px;
+}
+#liscuoi{
+	list-style: none;
+}
+#x>a{
+	float: left;
+	margin-left: 10px;
+}
+#divcuoi{
+	margin-bottom: 20px;
+}
+
+#copy{
+	float: left;
+}
+
+#divcuoi{
+	padding-top: 5px;
+}
+a:hover{
+	color: red;
+	transition: 0.4s;
+	cursor: pointer;
+}

@@ -1,0 +1,374 @@
+#list{
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+	margin: 10px;
+    height: 18px;
+    width: 56px;
+    text-align: center;
+    padding: 5px;
+}
+#title{
+	margin-top: 2px;
+    font-size:  50px;
+}
+#button{
+	margin-top: -97px;
+    margin-right: 366px;
+}
+#list:hover{
+	background-color: #dddddd;
+	border-radius: 8px;
+	color: #ff00f7eb;
+}
+#vermenu{
+	margin-top: -49px;
+	display: inline-block;
+}
+#div1{
+	
+	margin-bottom: 154px;
+}
+#titlemenu{
+	list-style: none;
+	padding: 5px;
+}
+#titlemenu:hover{
+	color: blue;
+}
+img{
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#container1{
+	margin: 0;
+	padding: 0;
+}
+#firstcol{
+	position: absolute;
+	width: 94%;
+    margin: 0;
+    padding: 0;
+    top: 83px;
+    left: 222px; 
+}
+body{
+	position: relative;
+}
+#technew{
+	text-align: center;
+	background-color: white;
+	width: 15%;
+	margin-top: 5px;
+	margin:0;
+	height: 35px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#zent{
+	text-align: center;
+	width: 15%;
+	margin:0;
+	padding: 0;
+	margin-top: -23px;
+	background-color: #454545;
+	color: white;
+	position: absolute;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 21px;
+
+}
+#technew:hover{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: pink;
+}
+#zent:hover{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: black;
+}
+#secondcol{
+	position: absolute;
+	width: 95%;
+    margin: 0;
+    padding: 0;
+    width: 105%;
+    top: 83px;
+    left: 491px;
+
+}
+#travel{
+	text-align: center;
+	background-color: white;
+	width: 15%;
+	margin-top: 5px;
+	margin:0;
+	height: 35px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#quote{
+	text-align: center;
+	width: 15%;
+	margin:0;
+	padding: 0;
+	margin-top: -23px;
+	background-color: #454545;
+	color: white;
+	position: absolute;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 21px;
+}
+#travel:hover{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: pink;
+}
+#quote:hover{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: black;
+}
+#thirdcol{
+	position: absolute;
+	width: 96%;
+    margin: 0;
+    padding: 0;
+    top: 83px;
+    left: 786px;
+}
+#photo{
+	text-align: center;
+	background-color: white;
+	width: 15%;
+	margin-top: 5px;
+	margin:0;
+	height: 35px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#quote2{
+	text-align: center;
+	width: 15%;
+	margin:0;
+	padding: 0;
+	margin-top: -23px;
+	background-color: #454545;
+	color: white;
+	position: absolute;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 37px;
+
+}
+#photo:hover{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: pink;
+}
+#quote2:hover{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: black;
+}
+#fourthcol{
+	position: absolute;
+	width: 96%;
+    margin: 0;
+    padding: 0;
+    top: 283px;
+    left: 221px;
+    
+}
+#finance{
+	text-align: center;
+	background-color: white;
+	width: 15%;
+	margin-top: 5px;
+	margin:0;
+	height: 35px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#quote3{
+	text-align: center;
+	width: 15%;
+	margin:0;
+	padding: 0;
+	margin-top: -23px;
+	background-color: #454545;
+	color: white;
+	position: absolute;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 37px;
+
+}
+#finance:hover{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: pink;
+}
+#quote3:hover{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: black;
+}
+#movie{
+	text-align: center;
+	background-color: white;
+	width: 15%;
+	margin-top: 5px;
+	margin:0;
+	height: 35px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#quote4{
+	text-align: center;
+	width: 15%;
+	margin:0;
+	padding: 0;
+	margin-top: -23px;
+	background-color: #454545;
+	color: white;
+	position: absolute;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 41px;
+}
+#fifthcol{
+	position: absolute;
+	width: 106%;
+    margin: 0;
+    padding: 0;
+    top: 283px;
+    left: 492px;
+
+}
+#movie:hover{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: pink;
+}
+#quote4:hover{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: black;
+}
+#sixthcol{
+    position: absolute;
+	width: 96%;
+    margin: 0;
+    padding: 0;
+    top: 283px;
+    left: 786px;
+}
+#cook{
+	text-align: center;
+	background-color: white;
+	width: 15%;
+	margin-top: 5px;
+	margin:0;
+	height: 35px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom: 1px solid #eeeeee;
+
+}
+#quote5{
+	text-align: center;
+	width: 15%;
+	margin:0;
+	padding: 0;
+	margin-top: -23px;
+	background-color: #454545;
+	color: white;
+	position: absolute;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 41px;
+
+}
+#cook:hover{
+    font-size: 20px;
+	font-weight: bold;
+	background-color: pink;
+}
+#quote5:hover{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: black;
+}
+#lastcol{
+   position: absolute;
+	width: 96%;
+    margin: 0;
+    padding: 0;
+    top: 493px;
+    left: 221px;
+}
+#fashion{
+	text-align: center;
+	background-color: white;
+	width: 15%;
+	margin-top: 5px;
+	margin:0;
+	height: 35px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom: 1px solid #eeeeee;
+}
+#quote6{
+
+	text-align: center;
+	width: 15%;
+	margin:0;
+	padding: 0;
+	margin-top: -23px;
+	background-color: #454545;
+	color: white;
+	position: absolute;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 41px;
+}
+#fashion:hover{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: pink;
+}
+#quote6:hover{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: black;
+}
+#copy{
+	position: absolute;
+	bottom: -359px;
+}
+
+#subti{
+	list-style: none;
+	float: left;
+	padding: 5px;
+	color: blue;
+	text-decoration: underline;
+}
+#sub{
+	position: absolute;
+	bottom: -348px;
+    left: 184px;
+}
+#subti:hover{
+	color: yellow;
+}
+#copyright:hover{
+	color:red;
+}
