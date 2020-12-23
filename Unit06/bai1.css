@@ -79,9 +79,7 @@ ul{
 	color: aqua;
 	font-family: sans-serif;
 }
-.anh:hover{
-	transform: scale(1.1);
-}
+
 .anh:hover .titleanh2{
 	display: block;
 	left: 0;
@@ -124,6 +122,7 @@ ul{
 }
 #ndtong2trai{
 	margin-top: 5%;
+	font-size: 20px;
 }#ndtong2phai{
 	margin-top: 10%;
 }
