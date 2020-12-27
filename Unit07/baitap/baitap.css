@@ -1,0 +1,1081 @@
+*{
+	margin: 0;
+	padding: 0;
+	transition: 0.4s;
+}
+#banner{
+	width: 100%;
+	
+}
+#anhbanner{
+	width: 100%;
+	position: relative;
+	opacity: 0.3;
+}	
+#title{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	font-family: ARIAL;
+	justify-content: space-between;	
+}
+#viptheme{
+	font-size: 20px;
+	color: aqua;
+	font-weight: bold;
+}
+#menu{
+	width: 70%;
+}
+ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+li{
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+#title2{
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+#hello{
+	font-size: 70px;
+	font-family: arial;
+}
+#jone{
+	color: blue;
+	font-weight: bold;
+}
+#blogger{
+	font-family: monospace;
+	font-size: 20px;
+	border-right: 1px solid black;	
+}
+#contitle2{
+	width: 30%;
+}
+#tong1{
+	width: 100%;
+}
+#chau1tong1{
+	width: 60%;
+}
+#contong1{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10%;
+	font-family: arial;
+	display: flex;
+	justify-content: space-between;
+}
+#thepchau1{
+	font-size: 25px;
+	font-weight: bold;
+}
+#noidung1{
+	font-weight: bold;
+	padding-top: 2%;
+}
+#noidung2{
+	padding-top: 2%;
+}
+#noidung3{
+	padding-top: 2%;
+}
+#download{
+	width: 25%;
+	height: 10%;
+	background-color: blue;
+	border-radius: 20px;
+	margin-top:2%;
+	color: white; 
+	font-size: 12px;
+}
+.iconright{
+	color: white;
+	padding-left: 15%;
+	padding-top: 7%;
+	margin: 0 auto;
+}
+#chau2tong1{
+	width: 35%;
+}
+#anhjone{
+	width: 100%;
+	box-shadow:0px 0px 16px 0px blue;
+}
+#tong2{
+	width: 100%;
+	background-color: rgba(0,55,255,0.05);
+	box-shadow:  0px 10px 15px 0px #d6d6dd;
+}
+#contong2{
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: arial;
+}
+#chau2tong2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-family: arial;
+	margin-top: 5%;
+}
+.nangluc{
+	width: 32%;
+	height: 100px;
+}
+.nangluc1{
+	width: 100%;
+	height: 50%;
+}
+.texttren{
+	width: 100%;
+	height: 50%;
+	position: relative;
+}
+.html{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.chiso{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.loadxam{
+	position: relative;
+	width: 100%;
+	background-color: gray;
+	border-radius: 10px;
+	height: 8px;
+	z-index: 10;
+}
+.thanhload{
+	width: 100%;
+}
+.loadxanh{
+	position: absolute;
+	width: 90%;
+	background-color: blue;
+	border-radius: 10px;
+	height: 8px;
+	z-index: 9;
+}
+#tong3{
+	width: 100%;
+	font-family: arial;
+}
+
+.title1tong3{
+	font-weight: bold;
+}
+#contong3{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.icon{
+	border-radius: 30px;
+	text-align: center;
+	width: 15%;
+	background-color: blue;
+	margin:auto;
+	padding: 0% 0 5% 0;
+}
+.icon1{
+	padding-top: 30%;
+	color: white;
+}
+.chautong3{
+	width: 32%;
+	text-align: center;
+	background-color: #f2f5ff;
+	padding-top: 40px;
+	padding-bottom:40px;
+	box-shadow: 3px 0px 15px 6px #b8c5cc;
+}
+#tong4{
+	width: 100%;
+	font-family: arial;
+	background-color: rgba(0,55,255,0.05);
+	box-shadow:  0px 10px 15px 0px #d6d6dd;
+}
+#contong4{
+	width: 80%;
+	margin: 0 auto;
+	padding: 5% 0 5% 0;
+	display: flex;
+	justify-content: space-between;
+}
+.chautong4{
+	width: 23%;
+	text-align: center;
+	border:1px dotted blue;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.icontivi{
+	color: blue;
+}
+.theptong4{
+	font-size: 20px;
+	padding-top: 10px;
+}
+#tong5{
+	width: 100%;
+	font-family: arial;
+	margin-top: 10%;
+}
+#menutong5{
+	width: 70%;
+	margin:auto;
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+#ultong5{
+	width: 100%;
+}
+.li1{
+	background-color: blue;
+	color: white;
+	border-radius: 20px;
+	padding: 2% 5% 2% 5%;
+}
+.li2{
+	border: 1px solid blue;
+	color: blue;
+	border-radius: 20px;
+	padding: 2% 5% 2% 5%;
+}
+#ndtong5{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2%;
+}
+.anhtong5{
+	width: 50%;
+}
+#tong6{
+	margin-top: 5%; 
+	width: 100%;
+	font-family: arial;
+	background-color: rgba(0,55,255,0.05);
+	box-shadow:  0px 10px 15px 0px #d6d6dd;
+}
+.titletong6{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 5% 0 5% 0;
+	padding-top: 5%;
+	font-family: arial;
+}
+.theAtong6{
+	color: blue;
+}
+#contong6{
+	width: 80%;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.chautong6{
+	width: 48%;
+	display: flex;
+	justify-content: space-between;
+}
+.chau2tong6{
+	width: 48%;
+	display: flex;
+	justify-content: space-between;
+}
+.chat1tong6{
+	width: 30%;
+	position: relative;
+}
+.anh1tong6{
+	width: 80%;
+	margin: 7% 5% 5% 10%;
+}
+.bordertong6{
+	width: 30%;
+	height: 30%;
+	border-top:2px solid blue;
+	border-right:2px solid blue;
+	border-radius:0 5px 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}.border1tong6{
+	width: 30%;
+	height: 30%;
+	border-bottom:2px solid blue;
+	border-left:2px solid blue;
+	border-radius:0 0 0 5px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.chat2tong6{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.tennv{
+	width: 40%;
+	color: blue;
+	font-size: 15px;
+	height: 20px;
+}
+.chuyenmon{
+	font-size: 12px;
+	width: 49%;
+	border-left: 1px solid black;
+	padding-left: 2%;
+	height: 20px;
+	display: inline;
+}
+.theptong6{
+	display:block;
+	width: 100%;
+	font-size: 12px;
+}
+#hinhtong6{
+	padding-top: 5%;
+	width: 5%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10%;
+}
+.hinhtronxam{
+	width: 10px;
+	height: 10px;
+	background-color: gray;
+	border-radius: 10px;
+}
+.hinhtronxanh{
+	width: 10px;
+	height: 10px;
+	background-color: blue;
+	border-radius: 10px;
+}
+#tong7{
+	width: 100%;
+	font-family: arial;	
+}
+.contong7{
+	width: 80%;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: space-between;
+}
+.chautong7{
+	width: 32%;
+}
+.chattong7{
+	position: relative;
+	
+}
+.anhtong7{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;	
+}
+.divlich{
+	text-align: center;
+	width: 40px;
+	height: 20px;
+	background-color: blue;
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+	color: white;
+}
+.chat1tong7{
+	width: 90%;
+	margin: auto;
+	position: relative;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+.ndtong7{
+	font-size: 20px;
+	font-weight: bold;
+}
+.nd1tong7{
+	margin: 5% 0 5% 0;
+}
+.nd2tong7{
+	float: left;
+	border-bottom: 2px solid blue;
+	padding-right: 1%;
+}
+.divso{
+	position: absolute;
+	top: 0;
+	text-align: center;
+	background-color: gray;
+	width: 40px;
+	height: 20px;
+}
+.chat2tong7{
+	width: 100%;
+	background-color: blue;
+	margin: 0 auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.noidungchat2tong7{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 5% 0 5% 0;
+
+}
+.tong8{
+	width: 100%;
+	font-family: arial;
+	margin-top: 10%;
+	background-color: #f2f5ff;
+	box-shadow: 0px 10px 15px 0px #d6d6dd;
+}
+.contong8{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.chattong8{
+	width: 24%;
+	text-align: center;
+	margin: 5% 0 5% 0;
+}.texttong8{
+	font-weight: bold;
+	margin: 2% 0 2% 0;
+}
+.icontong8{
+	color: blue;
+}
+.tong9{
+	width: 100%;
+	font-family: Arial;
+}
+.contong9{
+	width: 60%;
+	margin: 0 auto;
+	padding: 10% 0 10% 0;	
+}
+.titletong9{
+	color: blue;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.title2tong9{
+	text-align: center;
+	margin: 3% 0 3% 0;
+}
+.title3tong9{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.texttong9{
+	width: 48%;
+}
+input{
+	width:100%;
+	height: 30px;
+}
+.note{
+	width: 100%;
+}
+textarea{
+	width: 100%;
+	height: 100px;
+	margin-top: 5%;
+}
+.nuttong9{
+	width: 20%;
+	margin: auto;
+	background-color: blue;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+	padding: 1% 0 1% 0;
+	margin-top: 3%;
+}
+.tong10{
+	width: 100%;
+	font-family: arial;
+	background-color: #f2f5ff;
+}
+.contong10{
+	width: 20%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 0 5% 0;
+}
+.chattong10{
+	width: 30px;
+	height: 20px;
+	background-color: blue;
+	color: white;
+	border-radius: 15px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.con2tong10{
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 3%;
+	text-align: center;
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+	#title{
+		display: inline-block;
+		top: 2%;
+		left: 10%;
+		width: 80%;
+		margin: 0 auto;
+	}
+	#vip{
+		text-align: center;
+	}
+	#viptheme{
+		font-size: 25px;
+	}
+	#menu{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 2%;
+		font-size: 12px; 
+	}
+	#title2{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+#hello{
+	font-size: 30px;
+	font-family: arial;
+	margin-top: 25%;
+}
+#jone{
+	color: blue;
+	font-weight: bold;
+}
+#blogger{
+	font-family: monospace;
+	font-size: 15px;
+	border-right: 1px solid black;	
+}
+#contitle2{
+	width: 30%;
+}
+#contong1{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10%;
+	font-family: arial;
+	display: block;
+}
+#chau1tong1{
+	width: 100%;
+	text-align: center;
+}
+#download{
+	width: 25%;
+	margin: 0 auto;
+	height: 40px;
+	background-color: blue;
+	border-radius: 20px;
+	margin-top:2%;
+	color: white;
+	padding-right: 2%; 
+	padding-top: 1%;
+}
+#chau2tong1{
+	width: 100%;
+	margin-top: 5%; 
+}
+#anhjone{
+	width: 100%;
+	box-shadow:0px 0px 16px 0px blue;
+}
+#chau2tong2{
+	width: 100%;
+	display: block;
+	font-family: arial;
+	margin-top: 5%;
+}
+.nangluc{
+	width: 100%;
+	height: 100px;
+}
+#contong3{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.icon{
+	border-radius: 30px;
+	text-align: center;
+	width: 8%;
+	background-color: blue;
+	height: 17px;
+}
+.icon1{
+	color: white;
+}
+.chautong3{
+	width: 100%;
+	text-align: center;
+	background-color: #f2f5ff;
+	padding-top: 40px;
+	padding-bottom:40px;
+	box-shadow: 3px 0px 15px 6px #b8c5cc;
+}
+#contong4{
+	width: 80%;
+	margin: 0 auto;
+	padding: 5% 0 5% 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.chautong4{
+	width: 48%;
+	text-align: center;
+	border:1px dotted blue;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 5%; 
+}
+#menutong5{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+#ultong5{
+	width: 100%;
+}
+.li1{
+	background-color: blue;
+	color: white;
+	font-size: 10px;
+	border-radius: 20px;
+	padding: 2% 2% 2% 2%;
+}
+.li2{
+	font-size: 10px;
+	border: 1px solid blue;
+	color: blue;
+	border-radius: 20px;
+	padding: 2% 2% 2% 2%;
+}
+.chautong6{
+	display: block;
+	width: 100%;
+}
+.chau2tong6{
+	display: none;
+}
+.chat1tong6{
+	width: 30%;
+	position: relative;
+}
+.chat2tong6{
+	width: 100%;
+	display: flex;
+}
+.anh1tong6{
+	width: 80%;
+	margin: 7% 5% 5% 10%;
+}
+.bordertong6{
+	width: 50px;
+	height: 50px;
+	border-top:2px solid blue;
+	border-right:2px solid blue;
+	border-radius:0 5px 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}.border1tong6{
+	width: 50px;
+	height: 50px;
+	border-bottom:2px solid blue;
+	border-left:2px solid blue;
+	border-radius:0 0 0 5px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.tennv{
+	width: 20%;
+}
+.chuyenmon{
+	width: 77%;
+}
+.theptong6{
+	display: block;
+	width: 100%;
+}
+.contong7{
+	margin: 0 auto;
+	width: 80%;
+	display: block;
+}
+.chautong7{
+	width: 100%;
+}
+.noidungchat2tong7{
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 2% 0 2% 0;
+
+}
+.anhtong7{
+	margin-top: 5%;
+}
+.contong8{
+	display: block;
+}
+.chattong8{
+	margin: 0  auto;
+	padding: 5% 0 5% 0;
+	width: 40%;
+}
+.texttong9{
+	width: 100%;
+	margin: 2% 0 0 0;
+}
+.title3tong9{
+	display: block;
+}
+.nuttong9{
+	width: 50%;
+}
+.contong10{
+	width: 40%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 0 5% 0;
+}
+.chattong10{
+	width: 30px;
+	height: 20px;
+	background-color: blue;
+	color: white;
+	border-radius: 15px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+#menu{
+		display: none;
+}
+#title{
+	top: 5%;
+}
+#title2{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+#hello{
+	font-size: 30px;
+	font-family: arial;
+	margin-top: 5%;
+}
+#jone{
+	color: blue;
+	font-weight: bold;
+}
+#blogger{
+	font-family: monospace;
+	font-size: 20px;
+	border-right: 1px solid black;	
+}
+#contitle2{
+	width: 70%;
+	font-size: 12px;
+}
+#chau1tong1{
+	width: 100%;
+	display: block;
+}
+#contong1{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10%;
+	font-family: arial;
+	display: block;
+}
+#download{
+	width: 40%;
+	height: 10%;
+	background-color: blue;
+	border-radius: 20px;
+	margin:5% 0 5% 0;
+	color: white; 
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 2%;
+}
+.iconright{
+	color: white;
+	padding-left: 5%;
+	padding-top: 7%;
+	margin: 0 auto;
+}
+#chau2tong1{
+	width: 100%;
+	display: block;
+}
+#chau2tong2{
+	width: 100%;
+	display: block;
+}
+.nangluc{
+	width: 100%;
+	height: 100px;
+}
+#contong3{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.icon{
+	border-radius: 30px;
+	text-align: center;
+	width: 15%;
+	background-color: blue;
+	margin:auto;
+	padding: 0% 0 5% 0;
+}
+.icon1{
+	padding-top: 30%;
+	color: white;
+}
+.chautong3{
+	width: 100%;
+}
+#contong4{
+	width: 80%;
+	margin: 0 auto;
+	padding: 5% 0 5% 0;
+	display: block;
+}
+.chautong4{
+	width: 100%;
+	text-align: center;
+	border:1px dotted blue;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#menutong5{
+	width: 68%;
+	margin: 0 auto;
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+#ultong5{
+	width: 100%;
+	margin: 0 auto;
+}
+.li1{
+	font-size: 8px;
+	background-color: blue;
+	color: white;
+	border-radius: 20px;
+	padding: 2% 2% 2% 2%;
+}
+.li2{
+	font-size: 8px;
+	border: 1px solid blue;
+	color: blue;
+	border-radius: 20px;
+	padding: 2% 2% 2% 2%;
+}
+#ndtong5{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 2%;
+}
+.anhtong5{
+	width: 100%;
+}
+.chautong6{
+	width: 100%;
+	display: block;
+}
+.chau2tong6{
+	display: none;
+}
+.chat1tong6{
+	width: 30%;
+	position: relative;
+}
+.anh1tong6{
+	width: 80%;
+	margin: 7% 5% 5% 10%;
+}
+.bordertong6{
+	width: 30%;
+	height: 30%;
+	border-top:2px solid blue;
+	border-right:2px solid blue;
+	border-radius:0 5px 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}.border1tong6{
+	width: 30%;
+	height: 30%;
+	border-bottom:2px solid blue;
+	border-left:2px solid blue;
+	border-radius:0 0 0 5px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.chat2tong6{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.tennv{
+	width: 30%;
+	color: blue;
+	font-size: 15px;
+	height: 20px;
+}
+.chuyenmon{
+	font-size: 12px;
+	width: 65%;
+	border-left: 1px solid black;
+	padding-left: 2%;
+	height: 20px;
+	display: inline;
+}
+#hinhtong6{
+	padding-top: 5%;
+	width: 12%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10%;
+}
+.hinhtronxam{
+	width: 30%;
+	height: 10px;
+	background-color: gray;
+	border-radius: 10px;
+}
+.hinhtronxanh{
+	width: 30%;
+	height: 10px;
+	background-color: blue;
+	border-radius: 10px;
+}
+.contong7{
+	width: 80%;
+	margin: 0 auto;	
+	display: block;
+}
+.chautong7{
+	width: 100%;
+}
+.chattong7{
+	position: relative;
+	margin-top: 5%; 
+}
+.contong8{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+.chattong8{
+	width: 100%;
+	text-align: center;
+	padding: 5% 0 5% 0;
+}
+.title3tong9{
+	width: 100%;
+	display: block;
+}
+.texttong9{
+	width: 100%;
+	margin-top: 5%;
+}
+.nuttong9{
+	width: 50%;
+	height: 30px;
+	margin: auto;
+	background-color: blue;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+	padding: 5% 0 1% 0;
+	margin-top: 3%;
+	font-size: 12px;
+}
+.contong10{
+	width: 40%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 0 5% 0;
+}
+.chattong10{
+	width: 30px;
+	height: 22px;
+	background-color: blue;
+	color: white;
+	border-radius: 15px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+}

@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#tong{
+	width: 100%;	
+	height: 150px;
+	background-color: red;
+}
+.contong{
+	margin: 0 auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.contong1{
+	margin-top: 3%;
+	width: 24%;
+	height: 90px;
+	background-color: blue;
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.contong1{
+		width: 49%;
+		height: 90px;
+		background-color: blue;
+		display: block;
+	}
+}
