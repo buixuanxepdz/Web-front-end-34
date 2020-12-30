@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bai 4</title>
+	<script>
+		var n,m,k;
+		var sum=0;
+		do{
+			n = prompt('Nhap so nguyen duong n ','');
+			m = prompt('Nhap so nguyen duong m','');
+			if(n>m){
+				alert('m phai lon hon n');
+			}
+		}while(n>=m);
+		k = prompt('Nhap so nguyen duong k ','');
+		for (var i = n; i<=m; i++) {
+			if (i%k==0) {
+				sum+=i;
+			}
+		}
+		alert('tong cac so chia het cho k trong khoang  tu N den M la : '+ sum)
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
