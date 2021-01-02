@@ -13,14 +13,24 @@
 	<p id="text">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Quia quae itaque, quam corporis nobis inventore similique. Officiis molestiae, repellat? Autem est, ab maiores reiciendis quas, iure tempora quasi beatae expedita!</p>
 	<script>
 		var chu = document.getElementById('text');
+		var nho = document.getElementById('nho');
+		var vua = document.getElementById('vua');
+		var lon = document.getElementById('lon');
+		var size=15;
 		function chunho () {
-			chu.style.fontSize = '10px';
+			if (size>=10) {
+				size--;
+			}
+			text.style.fontSize = size +'px';
 		}
 		function chuvua () {
-			chu.style.fontSize = '18px';
+			chu.style.fontSize = '16px';
 		}
 		function chuto () {
-			chu.style.fontSize = '30px';
+			if (size<=50) {
+				size++;
+			}
+			text.style.fontSize = size +'px';
 		}
 	</script>
 </body>
