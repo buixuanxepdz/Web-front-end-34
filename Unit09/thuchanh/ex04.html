@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="input">
+	<select id="mySelect" onchange="myFunction()">
+		<option value="Audi">Audi</option>
+		<option value="BMW">BMW</option>
+		<option value="Mercedes">Mercedes</option>
+		<option value="Volvo">Volvo</option>
+	</select>
+	<form action="" onsubmit="submitForm()">
+		<input type="submit" value="Save">
+	</form>
+	<script type="">
+		var input = document.getElementById('input');
+		input.addEventListener('blur',function  (argument) {
+			input.style.background = 'green';
+			input.value = input.value.toUpperCase();
+		})
+		input.addEventListener("focus",function(){
+			input.style.background = 'red';
+		})
+		function myFunction() {
+			var x = document.getElementById("mySelect").value;
+		}
+		function submitForm () {
+			alert("Da submit")
+		}
+	</script>
+</body>
+</html>

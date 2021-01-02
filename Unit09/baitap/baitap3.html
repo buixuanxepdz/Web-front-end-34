@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p>Cỡ chữ</p>
+	<button id="nho" onclick="chunho()">Nhỏ</button>
+	<button id="vua" onclick="chuvua()">Vừa</button>
+	<button id="lon" onclick="chuto()">Lớn</button>
+	<p id="text">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Quia quae itaque, quam corporis nobis inventore similique. Officiis molestiae, repellat? Autem est, ab maiores reiciendis quas, iure tempora quasi beatae expedita!</p>
+	<script>
+		var chu = document.getElementById('text');
+		function chunho () {
+			chu.style.fontSize = '10px';
+		}
+		function chuvua () {
+			chu.style.fontSize = '18px';
+		}
+		function chuto () {
+			chu.style.fontSize = '30px';
+		}
+	</script>
+</body>
+</html>

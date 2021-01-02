@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+		<table border="1px" height="300px" cellpadding="10">
+			<tr>
+				<td width="20px"><input name="check" type="checkbox" class="a"></td>
+				<td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, facere.</td>
+			</tr>
+			<tr>
+				<td width="20px"><input name="check" type="checkbox" class="a"></td>
+				<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illo!</td>
+			</tr>
+			<tr>
+				<td width="20px"><input name="check" type="checkbox" class="a"></td>
+				<td>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Ullam, unde.</td>
+			</tr>
+			<tr>
+				<td width="20px"><input name="check" type="checkbox" class="a"></td>
+				<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at?</td>
+			</tr>
+			<tr>
+				<td width="20px"><input name="check" type="checkbox" class="a"></td>
+				<td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, quod?</td>
+			</tr>
+			<tr>
+				<td width="20px"><input name ="check" type="checkbox" class="a"></td>
+				<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, aspernatur?</td>
+			</tr>
+			<tr>
+				<td width="20px"><input name="check" type="checkbox" class="a"></td>
+				<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, voluptatum.</td>
+			</tr>
+		</table>
+		<button id="all">Chọn tất cả</button>
+		<button id="unall">Bỏ chọn tất cả</button>
+	<script>
+		var all = document.getElementById("all");
+		var unall = document.getElementById("unall");
+		var a = document.getElementsByClassName('a');
+		var check = document.getElementsByName('check')
+		function chonall(){
+			for (var i = 0; i<a.length; i++) {
+				check[i].checked = true;
+			}
+		}
+		function bochonall(){
+			for (var i = 0; i<a.length; i++) {
+				check[i].checked = false;
+			}
+		}
+		all.addEventListener("click",chonall);
+		unall.addEventListener("click",bochonall);
+	</script>
+</body>
+</html>

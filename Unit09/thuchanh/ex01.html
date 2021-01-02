@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p id="the_p">Hello World</p>
+	<p class="a">HELLO WORLD</p>
+	<p>hElLo WoLrD</p>
+	<input type="text" name="" id="input1">
+	<script>
+		var id = document.getElementById("the_p");
+		id.style.color = "red";
+		console.log(id);
+		var className = document.getElementsByClassName("a");
+		console.log(className);
+		var the = document.getElementsByTagName("p");
+		console.log(the);
+		console.log(id.innerHTML)
+		id.innerHTML = "Hello world lan 2"
+		var input1 = document.getElementById("input1");
+		console.log(input1.type);
+		input1.type = 'password';
+	</script>
+</body>
+</html>

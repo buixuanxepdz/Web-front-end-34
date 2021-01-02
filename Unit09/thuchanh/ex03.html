@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, numquam?</p>
+	<button onclick="changeColor()">Change color</button>
+	<p id="thep">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Veritatis neque voluptatibus exercitationem soluta id a?</p>
+	<script>
+		function changeColor() {
+			var p = document.getElementsByTagName("p")[0];
+			p.style.color = 'red';
+			console.log(p.style.color);
+		}
+		var thep = document.getElementById("thep");
+		thep.addEventListener("click",changeColor);
+		thep.addEventListener("mouseover",function(){
+			thep.style.color = 'red';
+		})
+		thep.addEventListener("mouseout",function(){
+			thep.style.color = 'black';
+		})
+	</script>
+</body>
+</html>
