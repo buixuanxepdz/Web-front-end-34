@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		div{
+			width: 700px;
+			height: 500px;
+			position: relative;
+			margin: auto;
+		}
+		img{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}	
+		#nuttrai{
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			bottom: 40%;
+			left: 10px;
+			z-index: 3;
+			opacity: 0.3;
+		}
+		#nuttrai:hover{
+			color: blue;
+			opacity: 1;
+			cursor: pointer;
+			transition: 0.4s;
+		}
+		#nutphai{
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			bottom: 40%;
+			right: 10px;
+			z-index: 3;
+			opacity: 0.3;
+		}
+		#nutphai:hover{
+			color: blue;
+			opacity: 1;
+			cursor: pointer;
+			transition: 0.4s;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img id="anh" src="../tải xuống (1).jfif" alt="">
+		<button id="nuttrai"> < </button>
+		<button id="nutphai"> > </button>
+	</div>
+	<script>
+		/*var img = document.getElementsByTagName('img');
+		var numberSlide = -1 ;
+		var nuttrai = document.getElementById('nuttrai');
+		var nutphai = document.getElementById('nutphai');
+		nutphai.addEventListener('click',function(){
+			numberSlide++;
+			showSlide();
+		})
+		/*nuttrai.addEventListener('click',function(){
+			numberSlide--;
+			showSlideTrai();
+		})*/
+		/*animationSlide();
+		function animationSlide(){
+			setTimeout(showSlide,10000);
+		}for (var i = 0; i < img.length; i++) {
+				img[i].style.display ='none';
+			}
+		function showSlide(){
+			
+			if(numberSlide>img.length){
+				numberSlide = 0;
+			}
+			if(numberSlide<0){
+				numberSlide=img.length-1;
+			}
+			numberSlide++;
+			img[numberSlide].style.display = 'block';
+			
+		}*/
+		var img = [
+			"../tải xuống (1).jfif",
+			"../tải xuống.jfif","../anh-dep-6.jpg"
+		];
+		var numberSlide = 0;
+		var nuttrai = document.getElementById('nuttrai');
+		var anh = document.getElementById('anh');
+		nutphai.addEventListener('click',showSlidephai);
+		function showSlidephai(){
+			numberSlide++;
+			if(numberSlide>=img.length){
+				numberSlide = 0;
+			}
+			if(numberSlide<0){
+				numberSlide = img.length-1;
+			}
+			anh.src = img[numberSlide];
+		}
+		nuttrai.addEventListener('click',showSlide)
+		function showSlide(){
+			numberSlide--;
+			if(numberSlide<0){
+				numberSlide = img.length-1;
+			}
+			anh.src = img[numberSlide];
+		}
+		animationSlide();
+		function animationSlide () {
+			setTimeout(showSlidephai,1000)
+		}
+	</script>
+</body>
+</html>
