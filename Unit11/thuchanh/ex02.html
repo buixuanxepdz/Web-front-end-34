@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script type="text/javascript" src="../thuvienjQuery/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis beatae, aliquid vel quis assumenda quos, accusantium numquam libero molestiae incidunt.</p>
+	<div></div>
+	<h3 id="the1">The h3</h3>
+	<h3 id="the2">The h3 2</h3>
+	<h3 id="theh3">Lorem ipsum dolor sit amet.</h3>
+	<h3 id="theh32">Lorem ipsum dolor sit amet.</h3>
+	<script>
+		$(document).ready(function(){
+			$("p").css({"font-size":"30px","color":"blue"});
+			$("div").css({"width":"500px","height":"200px","background":"blue"});
+			$("#the1").remove();
+			$("the2").empty();
+			$("#theh3").prepend("xin chao");
+			$("#theh32").before("xin chao");
+
+			$("#theh3").append("xin chao");
+			$("#theh32").after("xin chao");
+
+			$("#theh3").addClass("red");
+			$("#theh3").removeClass("red");
+
+			$("#theh32").toggleClass("red");
+		})
+	</script>
+</body>
+</html>

@@ -97,12 +97,12 @@
 	     	if(id == 'email'){
 	      	if(reg_mail.test(value) == false){span.innerHTML ='Email không hợp lệ';}
 	      	var email =value;
-	     }
+	     	}
 	     	if(id == 'confirm_email' && value != email){span.innerHTML ='Email nhập lại chưa đúng';}
 	     	if(id == 'password'){
 	      	if(value.length <6){span.innerHTML ='Password phải từ 6 ký tự';}
 	     	var pass =value;
-	     }
+	     	}
 	     	if(id == 'confirm_pass' && value != pass){span.innerHTML = 'Password nhập lại chưa đúng';}
 	     	if(id == 'phone' && isNaN(value) == true){span.innerHTML = 'Số điện thoại phải là kiểu số';}
 	    }

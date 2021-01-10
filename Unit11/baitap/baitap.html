@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.tong{
+			width: 1000px;
+			height: 400px;
+			margin: auto;
+			font-family: segoe UI light;
+			display: flex;
+		}
+		.slide{
+			background-color: aqua;
+			width: 50%;
+			height: 100%;
+			position: relative;
+		}
+		h3{
+			margin-left: 30px;
+			padding-top: 20px;
+		}
+		.put{
+			display: block;
+			margin-left: 30px;
+		}
+		label{
+			margin-left: 30px;
+		}
+		#nut{
+			position:absolute;
+			width: 50px;
+			height: 30px;
+			right: 10px;
+			bottom: 30px;
+			background-color: red;
+		}#nut2{
+			position:absolute;
+			width: 50px;
+			height: 30px;
+			right: 10px;
+			bottom: 30px;
+			background-color: red;
+		}#nut3{
+			position:absolute;
+			width: 50px;
+			height: 30px;
+			right: 100px;
+			bottom: 30px;
+			background-color: red;
+		}
+		span{
+			color: red;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			margin-left: 30px;
+		}
+		.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+	</style>
+</head>
+<body>
+	<form action="#" name="form">
+		<div class="tong">
+			<div class="slide fade">
+				<h3>Account</h3>
+				<p><label for="username">User Name:</label>
+				<input type="text" id="username" name="username" class="put"></p>
+				<p><label for="password">passWord:</label>
+				<input type="password" id="password" name="pass" class="put"></p>
+				<p><label for="cfpassword">Confirm passWord:</label>
+				<input type="password" id="cfpassword" name="pass" class="put"></p>
+				<input type="button" value="Next" id="nut" onclick="validate()">
+			</div>
+			<div class="slide fade">
+				<h3>Profile</h3>
+				<p><label for="name">Name:</label>
+				<input type="text" id="name" name="name" class="put"></p>
+				<p><label for="email">Email:</label>
+				<input type="text" id="email" name="email" class="put"></p>
+				<p><label for="address">Address:</label>
+				<input type="text" id="address" name="address" class="put"></p>
+				<p><label for="address">Age:</label>
+				<input type="text" id="age" name="age" class="put"></p>
+				<input type="button" value="Finish" id="nut2" onclick="validate2()">
+				<input type="button" value="prev" id="nut3" onclick="prev(1)">
+			</div>
+		</div>
+	</form>
+	<script>
+		var input = document.forms['form'].getElementsByTagName('input');
+		var run_onchange = false;
+		function validate(){
+			var error = false;
+			for (var i = 0; i < input.length; i++) {
+				var value = input[i].value;
+				var id = input[i].getAttribute("id");
+				var span = document.createElement("span");
+				var p = input[i].parentNode;
+				if(p.lastChild.nodeName == 'SPAN') {p.removeChild(p.lastChild);}
+				if (value == '') {
+					span.innerHTML=("Thiếu thông tin");
+				}else{
+					if(id=="password"){
+						if(value.length<6)
+						{
+							span.innerHTML=("Mật khẩu it nhất 6 kí tự");
+						}
+						var pass = value;
+					}
+					
+					if(id == "cfpassword" && value != pass){
+						span.innerHTML=("Mật khẩu nhập lại chưa đúng");
+					}
+				}
+				if(span.innerHTML != ''){
+	     		input[i].parentNode.appendChild(span);
+	     		error = true;
+	     		run_onchange = true;
+	     		input[i].style.border = '1px solid #c6807b';
+	     		input[i].style.background = '#fffcf9';
+	    		}
+
+			}
+			if(error==true)
+			{
+				return error;
+			}
+			
+   			}
+   			function validate2(){
+   				var loi = false;
+   				var age = document.getElementById('age');
+   				var reg_mail = /^[A-Za-z0-9]+([_\.\-]?[A-Za-z0-9])*@[A-Za-z0-9]+([\.\-]?[A-Za-z0-9]+)*(\.[A-Za-z]+)+$/;
+   				for (var i = 0; i < input.length; i++) {
+				var value = input[i].value;
+				var id = input[i].getAttribute("id");
+				var span = document.createElement("span");
+				var p = input[i].parentNode;
+				if(p.lastChild.nodeName == 'SPAN') {p.removeChild(p.lastChild);}
+				if (value == '') {
+					span.innerHTML=("Thiếu thông tin");
+				}else {
+					if(id == 'email'){
+	      			if(reg_mail.test(value) == false){span.innerHTML ='Email không hợp lệ';}
+	      			var email =value;
+	     			}
+	     			if(id == "age" && age.value < 18 && isNaN(value) == true){span.innerHTML ='Tuổi phải từ 18 và phải là số';}
+				}
+				if(span.innerHTML != ''){
+	     		input[i].parentNode.appendChild(span);
+	     		loi = true;
+	     		run_onchange = true;
+	     		input[i].style.border = '1px solid #c6807b';
+	     		input[i].style.background = '#fffcf9';
+	    		}
+
+			}
+			if(loi==false)
+			{
+				alert("Đăng kí thành công");
+				return !loi;
+			}
+   			}
+   			var register = document.getElementById('nut');
+		  	register.onclick = function(){
+		   return validate(1);
+		  	}
+		  	var finish = document.getElementById('nut2');
+		  	finish.onclick = function(){
+		   return validate2(0);
+		  	}
+		  	function prev(n){
+		  		chuyen(slideIndex = n);
+		  	}
+   			var slideIndex = 1;
+   			chuyen(slideIndex);
+			function chuyen(n){
+		  	var slide=document.getElementsByClassName("slide");
+    		if(n>slide.length){slideIndex=1};
+		  	if (n < 1) {slideIndex = slide.length}
+    		for (var i = 0; i < slide.length; i++) {
+      		slide[i].style.display = "none";
+      		slide[slideIndex-1].style.display = "block";
+    		}
+		 	}	
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="../thuvienjQuery/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+	<p>Hello World</p>
+	<p class="A" id="thep">Hello World</p>
+	<p class="A1" id="thep">Hello World</p>
+	<input type="text" value="hello" name="" id="input">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("p").css({"color":"red"});
+			$("p.A1").text("<b>Hkjadhka</b>");
+			$("p.A").html("<b>Hkjadhka</b>");
+			console.log($("#input").val("sdasdsa"));
+		});
+	</script>
+</body>
+</html>
