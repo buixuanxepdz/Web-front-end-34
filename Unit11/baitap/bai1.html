@@ -108,7 +108,7 @@
 				<p><label for="password">passWord:</label>
 				<input type="password" id="password" name="pass" class="put"></p>
 				<p><label for="cfpassword">Confirm passWord:</label>
-				<input type="password" id="cfpassword" name="pass" class="put"></p>
+				<input type="password" id="cfpassword" name="password" class="put"></p>
 				<input type="button" value="Next" id="nut" onclick="validate()">
 			</div>
 			<div class="slide1 fade">
@@ -132,8 +132,8 @@
 	</form>
 	<script>
 		var input = document.forms['form'].getElementsByTagName('input');
-		var run_onchange = false;
-		function validate(){
+/*		var run_onchange = false;
+*/		function validate(){
 			var error = false;
 			for (var i = 0; i < input.length; i++) {
 				var value = input[i].value;
@@ -151,27 +151,24 @@
 						}
 						var pass = value;
 					}
-					
 					if(id == "cfpassword" && value != pass){
 						span.innerHTML=("Mật khẩu nhập lại chưa đúng");
 					}
 				}
-				if(span.innerHTML != ''){
-	     		input[i].parentNode.appendChild(span);
-	     		error = true;
-	     		run_onchange = true;
-	     		input[i].style.border = '1px solid #c6807b';
-	     		input[i].style.background = '#fffcf9';
-	    		}
+					if(span.innerHTML != ''){
+		     		input[i].parentNode.appendChild(span);
+		     		error = true;
+		     		/*run_onchange = true;*/
+		     		input[i].style.border = '1px solid #c6807b';
+		     		input[i].style.background = '#fffcf9';
+		    		}
 
 			}
-			if(error==true)
+			if(error==false)
 			{
-				
 				document.getElementsByClassName('slide1')[0].style.display = 'block';
 				document.getElementsByClassName('slide')[0].style.display = 'none';
 			}
-			
    			}
    			function validate2(){
    				var loi = false;
@@ -195,22 +192,22 @@
 				if(span.innerHTML != ''){
 	     		input[i].parentNode.appendChild(span);
 	     		loi = true;
-	     		run_onchange = true;
-	     		input[i].style.border = '1px solid #c6807b';
+/*	     		run_onchange = true;
+*/	     		input[i].style.border = '1px solid #c6807b';
 	     		input[i].style.background = '#fffcf9';
 	    		}
-
 			}
 			if(loi==false)
 			{
 				document.getElementsByClassName("slide1")[0].style.display = 'none';
 				document.getElementsByClassName("slide2")[0].style.display = 'block';
 			}
+
    			}
-   			var register = document.getElementById('nut');
+   			/*var register = document.getElementById('nut');
 		  	register.onclick = function(){
-		   return validate();
-		  	}
+		   	return validate();
+		  	}*/
 		  	function finish(){
 		  		if(document.getElementById("agree").checked==true){
 		  			alert("Đăng kí thành công");

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="../thuvienjQuery/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration:none;
+		}
+		#to{
+			max-width: 100%;
+			height: 100px;
+			background-color: #223636;
+			position: relative;
+		}
+		#tenlua{
+			width: 10%;
+			height: 90%;
+			margin-top: 5px;
+			margin-left: 1%;
+		}
+		.menu{
+			float: right;
+			display: flex;
+			align-items: center;
+			min-height: 100px;
+			margin-right: 10px;	
+			z-index: 1;
+		}
+		.menu .A1{
+			color: #ddd;
+			text-transform: uppercase;
+			z-index: 2;
+		}.menu .A2{
+			margin-left: 10px;
+			color: #ddd;
+			padding: 12px 10px;
+			text-transform: uppercase;
+		}
+		.menu a:hover{
+			background-color: #fff;
+			transform: scale(1.1);
+			color: #0E3145;
+			transition: 0.4s;
+		}.menu .A1:hover{
+			background-color: #fff;
+			transform: scale(1.1);
+			color: #0E3145;
+			transition: 0.4s;
+		}
+		.menu i{
+			margin-right: 10px;
+		}
+		.home{
+			color: #D44A51;
+		}
+		.question{
+			color: #3BA9D9;
+		}
+		.envelope{
+			color: #EDF051;
+		}
+		.phone{
+			color: #6FF051;
+		}
+		#to .list{
+			height: 100px;
+			float: right;
+			line-height: 100px;
+			font-size: 30px;
+			color: white;
+			display: none;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+		@media screen and (min-width: 480px) and (max-width:768px) {
+			#to{
+				position: relative;
+			}
+			#to .list{
+				display: block !important;
+				margin-right: 30px;
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+			.menu{
+				position: absolute;
+				width: 50%;
+				background-color: #207272;
+				right: 0;
+				top: 70px;
+				display: none;;
+				padding: 20px 40px;
+				box-sizing: border-box;
+				margin-right: 0px;
+				z-index: 1;
+			}
+			.menu a{
+				display: block;
+				margin: 10px 0;
+			}
+			.hienra{
+				display: block;
+			}
+			.divmenu{
+				display: none;
+				z-index: 1;
+
+			}
+			.A1{
+				margin-left: 10px;	
+			}
+			#tenlua{
+				width: 20%;
+				height: 80%;
+			}
+			#conto2{
+				
+			}
+			.chamoto{
+				position: absolute;
+				margin-left: 100px; 
+				display: inline-block;
+			}
+		}
+		.A1{
+			position: relative;
+			z-index: 1;
+		}
+		.divmenu{
+			width: 170px;
+			height: 200px;
+			background-color: #3d7171;
+			position: absolute;
+			top: 42px;
+			left: 0;
+			display: none;
+			z-index: 1;
+		}
+		.A1:hover .divmenu{
+			display:block;
+		}
+		ul{
+			list-style: none;
+		}
+		li{
+			margin-top: 10px;
+			text-transform: uppercase;
+			color: white;
+			display: block;
+			padding: 10px 10px 10px 10px;
+			border-top:1px solid white; 
+			border-bottom:1px solid white; 
+		}
+		.book{
+			color: #E6272A;
+		}
+		.balance{
+			color: #9966FF;
+		}
+		.cloud{
+			color: aqua;
+		}
+		.cog{
+			color:#00FF00
+		}
+		li:hover{
+			background-color: #fff;
+			color: #0E3145;
+			transition: 0.4s;
+		}
+		.click{
+			width: 100%;
+			padding: 12px 10px;
+		}
+		#to2{
+			width: 100%;
+			background-color: ;
+			height: 400px;
+			padding-top: 50px;
+			background-image: linear-gradient(#56E3E3,#043838);
+		}
+		#conto2{
+			width: 200px;
+			height: 120px;
+			border: 4px solid white;
+			margin: auto;
+			position: relative;
+		
+		}
+		.mail{
+			position: absolute;
+			font-size: 100px;
+			color: white;
+			left: 50px;
+			top: 10px;
+			display: none;
+		}
+		.mail2{
+			position: absolute;
+			font-size: 100px;
+			color: white;
+			left: 50px;
+			top: 10px;
+		}
+		#conto2:hover .mail{
+			display:block;
+		}
+		#conto2:hover .mail2{
+			display:none; 
+		}
+		h3{
+			margin: auto;
+			width: 140px;
+			font-family: arial;
+			font-size: 30px;
+			padding-top: 20px;
+			color: yellow;
+			padding: 0;
+		}
+		span{
+			width: 100px;
+		}
+		.muiten{
+			width: 100%;
+			text-align: center;
+			color: yellow;
+			font-size: 50px;
+		}
+		.chamoto{
+			width: 100px;
+			height: 50px;
+			display: inline-block;
+			margin-left: 100px;
+		}
+		.moto{
+			font-size: 50px;
+			position: absolute;
+			top: 25px;
+			color: #25ADCC;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".list").on("click",function(){
+				$(this).toggleClass("fa-times");
+				$(".menu").toggleClass("hienra");
+			})
+			$(".divmenu").hide();
+			$(".click").on("click",function(){
+				$(this).next().slideToggle();
+			})
+			$(".moto").addClass("animate__animated animate__fadeInLeft");
+		})
+	</script>
+</head>
+<body>
+	<div id="to">
+		<img id="tenlua" src="../anh/anhtenlua.jpg" alt="">
+		<div class="chamoto"><i class="fas fa-motorcycle moto"></i></div>
+		<i class="fa fa-bars list" aria-hidden="true"></i>
+		<nav class="menu">
+		<div class="A1">
+			<div class="click"><i class="fa fa-home home" aria-hidden="true"></i>Home</div>
+			<div class="divmenu">
+				<ul>
+					<li><i class="fa fa-book book" aria-hidden="true"></i>Lorem1</li>
+					<li><i class="fa fa-balance-scale balance" aria-hidden="true"></i>Lorem2</li>
+					<li><i class="fa fa-cloud cloud" aria-hidden="true"></i>Lorem3</li>
+					<li><i class="fa fa-cogs cog" aria-hidden="true"></i>Lorem4</li>
+				</ul>
+			</div>
+		</div>
+		<a class="A2" href="#"><i class="fa fa-question-circle question" aria-hidden="true"></i>About</a>
+		<a class="A2" href="#"><i class="far fa-envelope envelope"></i>Contact</a>
+		<a class="A2" href="#"><i class="fa fa-phone-square phone" aria-hidden="true"></i>Support</a>
+		</nav>
+	</div>
+	<div id="to2">
+		<div id="conto2">
+			<i class="far fa-envelope-open mail"></i>
+			<i class="far fa-envelope mail2"></i>
+		</div> 
+		<span>
+			<i class="fa fa-caret-up muiten animate__animated animate__bounce animate__infinite infinite"aria-hidden="true"></i>
+		</span>
+		<h3>Hover Me</h3>
+	</div>
+</body>
+</html>

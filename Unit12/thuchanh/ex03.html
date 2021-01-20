@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="jquery-3.5.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			/*$("#thep").next().css({"color":"red"});
+			$("#thep").prev().css({"color":"red"});
+			$("#thep").sibling("h4").css({"color":"red"});*/
+			//
+			$("p").first().css({"color":"blue"})
+			$("p").last().css({"color":"green"})
+			$("p").eq(1).css({"color":"blue"})
+			$("p").filter(".A").css({"color":"pink"})
+			$("p").not(".A").css({"background":"gray"})
+		})
+	</script>
+</head>
+<body class="abc">
+	<h2>Thẻ h2</h2>
+	<p>Thẻ p1</p>
+	<p>Thẻ p2</p>
+	<p id="thep">Thẻ p3</p>
+	<p class="A">ahsdgjhasdgk</p>
+	<p class="A">ákdasnd</p>
+	<h4>Thẻ h4</h4>
+</body>
+</html>
