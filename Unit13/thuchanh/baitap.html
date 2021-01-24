@@ -22,6 +22,15 @@
 				$(".menu1").addClass("animate__animated animate__bounceInDown")
 			})	
 		})
+		$(function(){
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) $(".lentop").fadeIn();
+				else $(".lentop").fadeOut();
+			});
+			$(".lentop").click(function () {
+				$("body,html").animate({scrollTop: 0}, "slow");
+			});
+		});
 	</script>
 </head>
 <body>
@@ -64,9 +73,9 @@
 				<div class="ketrang"></div>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 mb-10 d-inline-block noidung lorem">
-					<div class="abc">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, veniam sint nulla. Totam, quasi, reprehenderit error esse debitis ipsa pariatur?
-					</div>
+				<div class="abc">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, veniam sint nulla. Totam, quasi, reprehenderit error esse debitis ipsa pariatur?
+				</div>
 			</div>
 			<div class="col-lg-2 col-md-3 col-sm-4 nuttrang">GET STARTED!</div>
 		</div>
@@ -105,58 +114,57 @@
 		</div>
 		<div class="row hang5">
 			<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left"
-     		data-aos-easing="linear"
-     		data-aos-duration="800">
-				<img src="../anh/1.jpg" alt="">
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left"
-		     data-aos-easing="linear"
-		     data-aos-duration="900">
-				<img src="../anh/2.jpg" alt="">
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left"
-		     data-aos-easing="linear"
-		     data-aos-duration="1000">
-				<img src="../anh/3.jpg" alt="">
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left"
-		     data-aos-easing="linear"
-		     data-aos-duration="1100">
-				<img src="../anh/4.jpg" alt="">
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left"
-     data-aos-easing="linear"
-     data-aos-duration="1200">
-				<img src="../anh/5.jpg" alt="">
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left"
-     data-aos-easing="linear"
-     data-aos-duration="1300">
-				<img src="../anh/6.jpg" alt="">
-			</div>
+			data-aos-easing="linear"
+			data-aos-duration="800">
+			<img src="../anh/1.jpg" alt="">
 		</div>
-		<div class="row hang6" align="center">
-			<div class="col-lg-12 col-md-12 col-sm-12 noidung1 "" data-aos="fade-up" style="font-size: 30px">Free Dowmload at Start Boostrap!</div>
-			<div class="col-lg-2 col-md-4 col-sm-4 nuttrang"  data-aos="fade-up">DOWNLOAD NOW !</div>
-		</div>
-		<div class="row hang7">
-			<div class="col-lg-12 col-md-12 col-sm-12" align="center"><h4>Let's Get In Touch !</h4></div>
-			<div class="col-lg-12 col-md-12 col-sm-12" align="center"><div class="kengang"></div></div>
-			<div class="col-lg-12 col-md-12 col-sm-12 mt-3" align="center"><div class="abc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsa dicta corporis exercitationem, optio eligendi, repellendus incidunt alias cupiditate velit.</div></div>
-			<div class="col-lg-6 col-md-12 col-sm-12 mt-3" align="center">
-				<div class="divicon">
-				<i class="fas fa-phone-volume icon1"></i>
-				<h6>820-930-284</h6>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-12 col-sm-12 mt-3" align="center">
-				<div class="divicon1">
-				<i class="far fa-envelope icon1"></i>
-				<p>buixuanxep@gmail.com</p>
-				</div>
-			</div>
+		<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left"
+		data-aos-easing="linear"
+		data-aos-duration="900">
+		<img src="../anh/2.jpg" alt="">
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left"
+	data-aos-easing="linear"
+	data-aos-duration="1000">
+	<img src="../anh/3.jpg" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1100">
+	<img src="../anh/4.jpg" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1200">
+	<img src="../anh/5.jpg" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 p-0" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1300">
+	<img src="../anh/6.jpg" alt="">
+</div>
+</div>
+<div class="row hang6" align="center">
+	<div class="col-lg-12 col-md-12 col-sm-12 noidung1 "" data-aos="fade-up" style="font-size: 30px">Free Dowmload at Start Boostrap!</div>
+	<div class="col-lg-2 col-md-4 col-sm-4 nuttrang"  data-aos="fade-up">DOWNLOAD NOW !</div>
+</div>
+<div class="row hang7">
+	<div class="col-lg-12 col-md-12 col-sm-12" align="center"><h4>Let's Get In Touch !</h4></div>
+	<div class="col-lg-12 col-md-12 col-sm-12" align="center"><div class="kengang"></div></div>
+	<div class="col-lg-12 col-md-12 col-sm-12 mt-3" align="center"><div class="abc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsa dicta corporis exercitationem, optio eligendi, repellendus incidunt alias cupiditate velit.</div></div>
+	<div class="col-lg-6 col-md-12 col-sm-12 mt-3" align="center">
+		<div class="divicon">
+			<i class="fas fa-phone-volume icon1"></i>
+			<h6>820-930-284</h6>
 		</div>
 	</div>
+	<div class="col-lg-6 col-md-12 col-sm-12 mt-3" align="center">
+		<div class="divicon1">
+			<i class="far fa-envelope icon1"></i>
+			<p>buixuanxep@gmail.com</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class='lentop'>
+	<div>
+		<img src='../anh/top.png'/>
+	</div>
+</div>
 </body>
 <script>
 	AOS.init();
