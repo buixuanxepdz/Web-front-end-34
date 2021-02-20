@@ -22,10 +22,10 @@
 	rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="career.css">
 	<link href="AOS/aos.css" rel="stylesheet">
 	<script src="AOS/aos.js"></script>
@@ -125,12 +125,12 @@
 							<a class="nav-link" href="#">MORE</a>
 							<ul class="menuc3">
 									<li class="lic3"><i class="fas fa-caret-right muiten"></i><a class="c3" href="about.html">ABOUT</a></li>
-									<li class="lic3"><i class="fas fa-caret-right muiten"></i><a class="c3" href="#">TEAM</a></li>
+									<li class="lic3"><i class="fas fa-caret-right muiten"></i><a class="c3" href="team.html">TEAM</a></li>
 									<li class="lic3"><i class="fas fa-caret-right muiten"></i><a class="c3" href="#">CAREERS</a></li>
 								</ul>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">SERVICES</a>
+							<a class="nav-link" href="service.html">SERVICES</a>
 						</li>
 						<li class="nav-item home11">
 							<a class="nav-link" href="#">BLOG</a>
@@ -414,7 +414,7 @@
 				<div class="col-lg-9 col-xl-9 cot1con6">
 					<div class="hang1contact">All or submit our online form to request an estimate or for general questions about U.S. Certified Contractors and our services. We look forward to serving you!
 					</div>
-					<form accept-charset="utf-8" id="formDemo">
+					<form method="get" accept-charset="utf-8" id="formDemo">
 						<fieldset>
 							<div class="hoten">
 								<label>First Name<span class="red">*</span></label><br>
@@ -462,7 +462,7 @@
 							</div>
 							<div class="com">
 								<label>About You</label><br>
-								<textarea name="message" tabindex="6" id="comment" required="abcba"></textarea>
+								<textarea name="message" tabindex="6" id="comment" required aria-invalid="true"></textarea>
 							</div>
 							<input type="submit" name="button" value="SEND MESSAGE" id="button">
 						</fieldset>
@@ -586,11 +586,12 @@
 </script>
 </html>
 <script type="text/javascript">
+	AOS.init();
 	$(document).ready(function() {
         	console.log('fghjk')
 
         //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
-        $("#formDemo").validate({
+       /* $("#formDemo").validate({
             rules: {
                 ho: "required",
                 ten: "required",
@@ -627,7 +628,7 @@
 
         });
         $("#button").on('click',function(){
-        	/*var ho = document.getElementById("ho");
+        	var ho = document.getElementById("ho");
         	var ten = document.getElementById("ten");
         	console.log('fghjk')
         	if(ho && ten == '' ){
@@ -635,9 +636,9 @@
         	}
         	else{
         		swal("Good job!", "You clicked the button!", "success");
-        	}*/
+        	}
         	$('#ho').val('')
-        })
+        })*/
        
     });
 </script>
