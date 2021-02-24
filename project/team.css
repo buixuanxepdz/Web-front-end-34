@@ -166,19 +166,9 @@
 .fa-clock,.fa-phone-alt,.fa-envelope{
 	padding-right: 5px;
 }
-/*.hang2{
-	height: 70px;
-}
-.logoconstrau{
-	height: 70px;
-	line-height: 70px;
-	display: flex;
-	font-family: Calibri;
-	font-size: 22px;
-	font-weight: bold;
-}*/
+
 #logo{
-	font-family: Calibri;
+	font-family: 'Chakra Petch', sans-serif;
 	font-size: 25px;
 	font-weight: bold;
 	color: black;
@@ -257,7 +247,6 @@
 	display: none;
 	background-color: #fed501;
 	width: 150px;
-	height: 100px;
 	line-height: 30px;
 	position: absolute;
 	text-decoration: none; 
@@ -347,7 +336,7 @@
 	padding: 5% 0;
 }
 #logo2{
-	font-family: Calibri;
+	font-family: 'Chakra Petch', sans-serif;
 	font-size: 23px;
 	font-weight: bold;
 	color: black;
@@ -433,15 +422,15 @@
 	background-color: white;
 	position: absolute;
 	width: 100%;
-	height: 80px;
+	height: 76px;
 	bottom: 0;
 	z-index: 0;
 	opacity: 0.9;
 }
 .leader:hover .conlead{
-	opacity: 0.9;
+	opacity: 0.8;
 	bottom: 0;
-	height: 70%;
+	height: 80%;
 	transition: 0.3s;
 }
 .conlead i{
@@ -449,7 +438,7 @@
 	padding-left: 5px;
 }
 .conlead p{
-	font-size: 18px !important;
+	font-size: 16px !important;
 }
 .conlead h4{
 	margin: 0;
@@ -494,3 +483,553 @@
  	background-color: #0c0c0c;
  	text-align: center;
  }
+ @media screen and (min-width: 768px) and (max-width: 991px ){
+	.container1{
+		display: none;
+	}
+	.icon{
+		display: none;
+	}
+	.container2{
+		background-color:#fed501;
+	}
+	.shop span{
+		background-color: white;
+	}
+	.ctn{
+		position: relative;
+	}
+	#navbarResponsive{
+		background-color: #fed501;
+		text-align: center;
+		width: 30%;
+		position: absolute;
+		top: 100%;
+		right: 125px;
+	}
+	.home{
+		position: relative;
+	}
+	.menuc3{
+		background-color: #fed501;
+		width: 150px;
+		left: -150px;
+		top: 10px;
+		line-height: 30px;
+		position: static;
+		text-decoration: none; 
+	}.home11{
+		position: relative;
+	}
+	.menuc31{
+		background-color: #fed501;
+		width: 150px;
+		left: -150px;
+		top: 10px;
+		line-height: 30px;
+		position: static;
+		text-decoration: none; 
+	}
+	.navbar-toggler{
+		margin-left: 300px;
+	}
+	#navbarResponsive ul{
+		width: 100% !important;
+	}
+	#navbarResponsive ul li a{
+		color: white !important;
+		width: 100%;
+		height: 40px;
+		border: 2px solid orange;
+		margin: -1px 0;
+	}
+	.lic3 .c3:hover{
+		background-color: #fed501 !important;
+	}
+	.lic3:hover{
+		background-color: #fed501;
+	}
+	.lic3 i{
+		color: white;
+	}
+	.c3{
+		border: none !important;
+	}
+	.cot1con10{
+		width: 70%;
+	}
+	.quick{
+		font-size: 17px !important;
+	}
+	.cot2con10 li {
+		padding-top: 4px;
+		color: white;
+	}
+} 
+@media screen and (min-width: 576px) and (max-width:767px ){
+	#logo img{
+		width: 30px;
+		height: 30px;
+	} 
+	.container1{
+		display: none;
+	}
+	#logo{
+		font-family: 'Chakra Petch', sans-serif;
+		font-size: 20px;
+	}
+	.navbar-toggler {
+		margin-left: 230px !important;
+		padding: 4px;
+	}
+	.navbar-light .navbar-toggler-icon {
+		font-size: 15px;
+	}
+	.icon{
+		display: none;
+	}
+	.shop {
+    width: 33px;
+    height: 30px;
+    position: relative;
+	}
+	.shop i {
+    font-size: 21px;
+    padding-top: 12px;
+}
+	.shop span{
+		width: 20px;
+		background-color: white;
+	}
+	.search i {
+    margin-left: 10px;
+    font-size: 20px;
+    padding-top: 12px;
+}
+	.container2{
+		background-color:#fed501;
+	}
+    .aboutus{
+    	font-size: 30px;
+    } 
+	#navbarResponsive{
+		background-color: #fed501;
+		text-align: center;
+		width: 50%;
+		position: absolute;
+		top: 100%;
+		right: 125px;
+	}
+	.lic3 i{
+		color: white;
+	}
+	.home{
+		position: relative;
+	}
+	.menuc3{
+		background-color: #fed501;
+		width: 150px;
+		left: -150px;
+		top: 10px;
+		line-height: 30px;
+		position: static;
+		text-decoration: none; 
+	}.home11{
+		position: relative;
+	}
+	.menuc31{
+		background-color: #fed501;
+		width: 150px;
+		left: -150px;
+		top: 10px;
+		line-height: 30px;
+		position: static;
+		text-decoration: none; 
+	}
+	.navbar-toggler{
+		margin-left: 300px;
+	}
+	#navbarResponsive ul{
+		width: 100% !important;
+	}
+	#navbarResponsive ul li a{
+		color: white !important;
+		width: 100%;
+		height: 40px;
+		border: 2px solid orange;
+		margin: -1px 0;
+	}
+	.c3{
+		border: none !important;
+	}
+	.chuatext{
+		width: 100%;
+	}
+	.progress-wrap {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    display: block;
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.2);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    background-color: #fed501;
+}
+	.progress-wrap::before {
+    position: absolute;
+    font-family: 'unicons';
+    content: '\e84b';
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    opacity: 0;
+    background: #fd8620;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 0;
+    top: 0;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.progress-wrap::after {
+    position: absolute;
+    font-family: 'unicons';
+    content: '\e84b';
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    color: #fd8620;
+    left: 0;
+    top: 0;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.cot1con10{
+		width: 70%;
+	}
+	.quick{
+		font-size: 17px !important;
+	}
+	.cot2con10 li {
+    padding-top: 4px;
+    color: white;
+}
+#logo2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    -webkit-animation: myi 800ms infinite;
+    -moz-animation: myi 800ms infinite;
+    -o-animation: myi 800ms infinite;
+    animation: myi 800ms infinite;
+}
+#logo2 img{
+	width: 30px;
+	height: 30px;
+}
+.pcon10{
+	font-size: 14px;
+}
+.dcon10 {
+    color: #c5c5c5;
+    text-align: center;
+    border: 1.5px solid #c5c5c5;
+    border-radius: 30px;
+    font-size: 12px;
+    float: left;
+    width: 35px;
+    margin-left: 3%;
+    line-height: 35px;
+    height: 35px;
+}
+.cot2con10 .quick {
+	padding: 0 !important;
+    margin-top: 10px;
+    font-size: 23px;
+    color: white;
+}
+.vach {
+    width: 40px;
+    height: 2px;
+    background-color: #fed501;
+}
+.ul10 {
+    margin-top: 7%;
+}
+.cot2con10 li {
+    padding-top: 0px;
+    color: white;
+    font-size: 15px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+	#logo img{
+		width: 30px;
+		height: 30px;
+	} 
+	.container1{
+		display: none;
+	}
+	.lic3 i{
+		color: white;
+	}
+	#logo{
+		font-size: 20px;
+	}
+	.navbar-toggler {
+		margin-left: 0px !important;
+		padding: 0px;
+	}
+	.chuaicon{
+		display: none;
+	}
+	.navbar-light .navbar-toggler-icon {
+		font-size: 14px;
+	}
+	.icon{
+		display: none;
+	}
+	.shop {
+		width: 33px;
+		height: 30px;
+		position: relative;
+	}
+	.shop i {
+		font-size: 21px;
+		padding-top: 12px;
+	}
+	.shop span{
+		width: 20px;
+		background-color: white;
+	}
+	.search i {
+		margin-left: 10px;
+		font-size: 20px;
+		padding-top: 12px;
+	}
+	.container2{
+		background-color:#fed501;
+	}
+	.ctn{
+		display: flex;
+	}
+	.aboutus{
+		font-size: 25px;
+	} 
+	.container3{
+	}
+	#navbarResponsive{
+		background-color: #fed501;
+		text-align: center;
+		width: 50%;
+		position: absolute;
+		top: 100%;
+		right: 20px;
+	}
+	.home{
+		position: relative;
+	}
+	.home:hover #menuc3{
+		display: block !important;
+	}
+	.menuc3{
+		background-color: #fed501;
+		width: 150px;
+		left: -150px;
+		top: 10px;
+		line-height: 30px;
+		position: static;
+		text-decoration: none; 
+		}.home11{
+			position: relative;
+		}
+		.home11:hover #menuc31{
+			display: block !important;
+		}
+		.menuc31{
+			background-color: #fed501;
+			width: 150px;
+			left: -150px;
+			top: 10px;
+			line-height: 30px;
+			position: static;
+			text-decoration: none; 
+		}
+		.navbar-toggler{
+			margin-left: 300px;
+		}
+		#navbarResponsive ul{
+			width: 100% !important;
+		}
+		#navbarResponsive ul li a{
+			color: white !important;
+			width: 100%;
+			font-size: 13px;
+			height: 40px;
+			border: 2px solid orange;
+			margin: -1px 0;
+		}
+		.lic3 .c3:hover{
+			background-color: #fed501 !important;
+		}
+		.lic3:hover{
+			background-color: #fed501;
+		}
+		.c3{
+			border: none !important;
+		}
+		.chuatext{
+			width: 100%;
+		}
+		.progress-wrap {
+			position: fixed;
+			right: 40px;
+			bottom: 40px;
+			height: 35px;
+			width: 35px;
+			cursor: pointer;
+			display: block;
+			border-radius: 100%;
+			box-shadow: inset 0 0 0 2px rgba(255,255,255,0.2);
+			z-index: 10000;
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(15px);
+			-webkit-transition: all 200ms linear;
+			transition: all 200ms linear;
+			background-color: #fed501;
+		}
+		.progress-wrap::before {
+			position: absolute;
+			font-family: 'unicons';
+			content: '\e84b';
+			text-align: center;
+			line-height: 35px;
+			font-size: 20px;
+			opacity: 0;
+			background: #fd8620;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			left: 0;
+			top: 0;
+			height: 35px;
+			width: 35px;
+			cursor: pointer;
+			display: block;
+			z-index: 2;
+			-webkit-transition: all 200ms linear;
+			transition: all 200ms linear;
+		}
+		.progress-wrap::after {
+			position: absolute;
+			font-family: 'unicons';
+			content: '\e84b';
+			text-align: center;
+			line-height: 35px;
+			font-size: 20px;
+			color: #fd8620;
+			left: 0;
+			top: 0;
+			height: 35px;
+			width: 35px;
+			cursor: pointer;
+			display: block;
+			z-index: 1;
+			-webkit-transition: all 200ms linear;
+			transition: all 200ms linear;
+		}
+		.cot1con10{
+			width: 100%;
+		}
+		.quick{
+			font-size: 17px !important;
+		}
+		.cot2con10 li {
+			padding-top: 4px;
+			color: white;
+		}
+		#logo2 {
+			font-size: 20px;
+			font-weight: bold;
+			color: black;
+			text-decoration: none;
+			-webkit-animation: myi 800ms infinite;
+			-moz-animation: myi 800ms infinite;
+			-o-animation: myi 800ms infinite;
+			animation: myi 800ms infinite;
+		}
+		#logo2 img{
+			width: 30px;
+			height: 30px;
+		}
+		.pcon10{
+			font-size: 14px;
+		}
+		.dcon10 {
+			color: #c5c5c5;
+			text-align: center;
+			border: 1.5px solid #c5c5c5;
+			border-radius: 30px;
+			font-size: 12px;
+			float: left;
+			width: 35px;
+			margin-left: 3%;
+			line-height: 35px;
+			height: 35px;
+		}
+		.cot2con10{
+			width: 100% !important;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.cot2con10 .quick {
+			padding: 0 !important;
+			margin-top: 10px;
+			font-size: 23px;
+			color: white;
+		}
+		.vach { 
+			margin: auto;
+			width: 40px;
+			height: 2px;
+			background-color: #fed501;
+		}
+		.ul10 {
+			margin-top: 3%;
+		}
+		.cot2con10 li {
+			padding-top: 0px;
+			color: white;
+			font-size: 15px;
+		}
+		.hangdau{
+			text-align: center;
+		}
+		.divchuaicon{
+			width: 160px;
+			margin: 0 auto;
+		}
+		.container11{
+			font-size: 10px;
+		}
+}
