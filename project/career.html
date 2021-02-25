@@ -411,15 +411,15 @@
 									
 							<div class="hoten">
 								<label>Your Email<span class="red">*</span></label><br>
-								<input name="email" tabindex="5" type="email" placeholder="Please Enter your email" required>
+								<input id="email" name="email" tabindex="5" type="email" placeholder="Please Enter your email" required>
 							</div>
 							<div class="hoten">
 								<label>Your Phone<span class="red">*</span></label><br>
-								<input name="phone" tabindex="5" type="number" placeholder="Please enter your phone" required>
+								<input name="phone" tabindex="5" type="number" placeholder="Please enter your phone" required id="phone">
 							</div>
 							<div class="sub">
 								<label>Subject<span class="red">*</span></label><br>
-								<input name="subject" tabindex="5" type="text" required>
+								<input name="subject" tabindex="5" type="text" required id="subject">
 							</div>
 							<div class="com">
 								<label>About You</label><br>
@@ -547,63 +547,30 @@
 </script>
 </html>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script type="text/javascript">
 	AOS.init({
 		 	disable:'phone',
 		 	disable:'mobile'
 		 });
 	$(document).ready(function() {
-        	console.log('fghjk')
-
-        //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
-       /* $("#formDemo").validate({
-            rules: {
-                ho: "required",
-                ten: "required",
-                city:"required",
-                address:"required",
-                zip:"required",
-                email: {
-                    required: true
-                },
-                phone:{
-                	required:true,
-                	minlenght:10
-                },
-                subject: "required",
-                message:{
-                	required:true
-                } 
-            },
-            messages: {
-                ho: "Please enter your firstname",
-                ten: "Please enter your lastname",
-                city:"Please enter your town/city",
-                address:"Please enter your address",
-                zip:"Please enter your zip",
-                email: {
-                    required: "Please enter a valid email address",
-                },
-                phone:{
-                	required: "Please enter your phone"
-                },
-                subject: "Please enter subject",
-                message: "Please enter message"
-            }
-
-        });
-        $("#button").on('click',function(){
-        	var ho = document.getElementById("ho");
-        	var ten = document.getElementById("ten");
-        	console.log('fghjk')
-        	if(ho && ten == '' ){
-        		alert("abc")
-        	}
-        	else{
-        		swal("Good job!", "You clicked the button!", "success");
-        	}
-        	$('#ho').val('')
-        })*/
+       $("#formDemo").submit(function(event){
+			event.preventDefault();
+			swal(
+          'Good job !',
+          'Thank you very so much',
+          'success'
+        )
+			$("#ho").val('');
+			$("#ten").val('');
+			$("#email").val('');
+			$("#city").val('');
+			$("#zip").val('');
+			$("#address").val('');
+			$("#phone").val('');
+			$("#subject").val('');
+			$("#comment").val('');
+		});
         $('.owl-carousel').owlCarousel({
         	loop:true,
         	margin:10,

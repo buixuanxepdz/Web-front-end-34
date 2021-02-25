@@ -101,9 +101,9 @@
 						<li class="nav-item">
 							<a class="nav-link" href="index.html">HOME</a>		
 						</li>
-						<li class="nav-item home">
-							<a class="nav-link" >MORE<i style="margin-left: 3px" class="fas fa-caret-down"></i></a>
-							<ul class="menuc3">
+						<li class="nav-item home ">
+							<a class="nav-link">MORE<i style="margin-left: 3px" class="fas fa-caret-down"></i></a>
+							<ul  class="menuc3">
 								<li class="lic3"><i class="fas fa-caret-right muiten"></i><a class="c3" href="about.html">ABOUT</a></li>
 								<li class="lic3"><i class="fas fa-caret-right muiten"></i><a class="c3" href="team.html">TEAM</a></li>
 								<li class="lic3"><i class="fas fa-caret-right muiten"></i><a class="c3" href="career.html">CAREERS</a></li>
@@ -752,11 +752,11 @@
 								<div class="chuainput">
 									<div class="coninput">
 										<label>Your Name</label>
-										<input name="ten" type="text"  required aria-invalid="true">
+										<input name="ten" id="ten" type="text"  required aria-invalid="true">
 									</div>
 									<div class="coninput">
 										<label>Your Email</label>
-										<input name="email" type="email"  required>
+										<input name="email" id="email" type="email"  required>
 									</div>
 								</div>
 								
@@ -768,6 +768,7 @@
 			</div>
 		</div>
 	</div>
+	<div id="chuchay"><marquee direction="right" id="chuchay">Hello welcome to my Website</marquee></div>
 	<div class="container-fluid container12">
 		<div class="container">
 			<div class="row">
@@ -870,6 +871,7 @@
 	<script src="js/jquery.filterizr.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script>
 		 AOS.init({
 		 	disable:'phone',
@@ -916,13 +918,25 @@
 			rules: {
 				ten: "required",
 				email:"required"
+				
 			},
 			messages: {
 				ten: "Please enter your name",
 				email:"Please enter your email"
-			}
-		});*/
+			},
+		});
 
+*/	
+		$("#formDemo").submit(function(event){
+			event.preventDefault();
+			swal(
+          'Good job !',
+          'Thank you very so much',
+          'success'
+        )
+			$("#ten").val('');
+			$("#email").val('');
+		})
 	})
 	/*$('.coninput :input').fancyInput();*/
 </script>

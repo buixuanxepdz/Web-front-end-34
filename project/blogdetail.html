@@ -436,15 +436,15 @@
 								<legend></legend>
 								<div class="abc">
 									<label></label>
-									<input name="ten" type="text" placeholder="Your Name" required>
+									<input name="ten" id="ten" type="text" placeholder="Your Name" required>
 								</div>
 								<div class="abc">
 									<label></label>
-									<input name="email" type="email" placeholder="Your Email" required>
+									<input name="email" id="email" type="email" placeholder="Your Email" required>
 								</div>
 								<div class="abc1">
 									<label></label>
-									<textarea name="comment" required placeholder="Your Comment"></textarea>
+									<textarea name="comment" id="comment" required placeholder="Your Comment"></textarea>
 								</div>
 								<button type="submit">POST COMMENT</button>
 							</fieldset>
@@ -518,4 +518,20 @@
 		</svg>
 	</div>	
 </body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#formDemo").submit(function(event){
+	event.preventDefault();
+	swal(
+		'Good job !',
+		'Thank you very so much',
+		'success'
+		)
+	$("#ten").val('');
+	$("#email").val('');
+	$("#comment").val('');
+})
+});
+</script>
 </html>

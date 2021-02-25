@@ -562,11 +562,6 @@ a{
     .concot:hover .connd{
       background-color: white;
     }
-/*.chuaanh{
-  width: 135px;
-  height: 55px;
-  margin-left: 10px;
-  }*/
   .concot img{
     width: 50px;
     height: 50px;
@@ -831,6 +826,13 @@ a{
     text-align: center;
     background-color: #fed501;
   }
+  #chuchay{
+    background-color: #fed501;
+    color: white;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+  }
   .btnfl a{
     font-weight: bold;
     text-decoration: none;
@@ -930,10 +932,15 @@ a{
   position: relative;
   width: 100%;
   height: 250px;
+  overflow: hidden;
 }
 .chuaanh img{
   width: 100%;
   height: 100%;
+}
+.chuaanh img:hover{
+  transition: 0.3s;
+  transform: scale(1.2);
 }
 .connd1{
   padding-top: 12px;

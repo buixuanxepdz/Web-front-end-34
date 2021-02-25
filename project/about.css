@@ -1362,6 +1362,9 @@ a{
 			color: white;
 			font-size: 15px;
 		}
+		.container11{
+			font-size: 10px;
+		}
 		.progress-wrap::before {
 			position: absolute;
 			font-family: 'unicons';
