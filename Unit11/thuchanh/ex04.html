@@ -7,16 +7,19 @@
 	<script type="text/javascript" src="../thuvienjQuery/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-	<button>Them</button>
-	<button>Them</button>
+	<button id="them">Them</button>
+	<button id = "del">Xoa</button>
 	<div></div>
 	<script>
 		$(document).ready(function(){
-			$("button").on("click",function(){
+			$("#them").on("click",function(){
 				$("div").append("<button id='test'>dads</button>")
 			})
 			$("div").click("#test",function(){
 				alert("A");
+			})
+			$("#del").on("click",function(){
+				$("div").empty("<button id='test'>dads</button>");
 			})
 		})
 	</script>

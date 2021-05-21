@@ -11,7 +11,8 @@
 	<!-- jQuery library -->
 	<!-- Popper JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
+	<link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.min.css">
+	<script src="lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
@@ -396,8 +397,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid container8">
-		<div class="container" data-aos="fade-up"
+	<div class="container-fluid container8" >
+
+		<div class="container" id="particles-js" data-aos="fade-up"
      data-aos-duration="1000">
 			<div class="row" >
 				<div class="col-lg-12 col-xl-12">
@@ -832,24 +834,24 @@
 				<div class="col-lg-3 col-xl-3 col-md-6 col-12 col-sm-6 cot2con10">
 					<p class="quick">GALLERY</p>
 					<div class="vach"></div>
-					<div class="anhfooter">
+					<div class="anhfooter gallery">
 						<div class="imgft">
-							<img src="anh/ft1.jpg" alt="">
+							<a href="anh/ft1.jpg" data-lightbox="mygallery"><img src="anh/ft1.jpg" alt=""></a>
 						</div>
 						<div class="imgft">
-							<img src="anh/ft2.jpg" alt="">
+							<a href="anh/ft2.jpg" data-lightbox="mygallery"><img src="anh/ft2.jpg" alt=""></a>
 						</div>
 						<div class="imgft">
-							<img src="anh/ft3.jpg" alt="">
+							<a href="anh/ft3.jpg" data-lightbox="mygallery"><img src="anh/ft3.jpg" alt=""></a>
 						</div>
 						<div class="imgft">
-							<img src="anh/ft4.jpg" alt="">
+							<a href="anh/ft4.jpg" data-lightbox="mygallery"><img src="anh/ft4.jpg" alt=""></a>
 						</div>
 						<div class="imgft">
-							<img src="anh/ft5.jpg" alt="">
+							<a href="anh/ft5.jpg" data-lightbox="mygallery"><img src="anh/ft5.jpg" alt=""></a>
 						</div>
 						<div class="imgft">
-							<img src="anh/ft6.jpg" alt="">
+							<a href="anh/ft6.jpg" data-lightbox="mygallery"><img src="anh/ft6.jpg" alt=""></a>
 						</div>
 					</div>
 				</div>
@@ -857,7 +859,7 @@
 		</div>
 	</div>
 	<div class="container-fluid container14">
-		Copyright © 2019 Designed by AuThemes. All rights reserved.
+		Copyright © 2019 Designed by Bui Xuan Xep. All rights reserved.
 	</div>
 	<div class="progress-wrap active-progress">
 		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -872,6 +874,8 @@
 	<script src="js/script.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="particles.js"></script>
+	<script src="app.js"></script>
 	<script>
 		 AOS.init({
 		 	disable:'phone',
@@ -896,7 +900,7 @@
 				loop:true,
 				margin:10,
 				nav:true,
-				autoplay:true,
+				// autoplay:true,
 				autoplayTimeout:3000,
 				dots:true,
 				responsive:{
@@ -924,9 +928,9 @@
 				ten: "Please enter your name",
 				email:"Please enter your email"
 			},
-		});
+		});*/
 
-*/	
+	
 		$("#formDemo").submit(function(event){
 			event.preventDefault();
 			swal(

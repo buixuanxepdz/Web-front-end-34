@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.heart {
+			position: absolute;
+			margin: auto;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: pink;
+			height: 50px;
+			width: 50px;
+			transform: rotate(-45deg);
+		}
+		.heart::after {
+			background-color: pink;
+			content: "";
+			border-radius: 50%;
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			top: 0px;
+			left: 25px;
+		}
+		.heart::before {
+			content:"" ;
+			background-color: pink;
+			border-radius: 50%;
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			top: -25px;
+			left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<form name="frm" onsubmit="getValue()">
+		<input type="checkbox" name="check" value="Item1">Item1
+		<input type="checkbox" name="check" value="Item2">Item2
+		<input type="checkbox" name="check" value="Item3">Item3
+		<input type="submit" name="submit" value="Submit">
+	</form>
+	<script type="text/javascript">
+		function getValue() {
+			for (var i = 0; i < 3; i++) {
+				if (document.frm.check[i].checked == true) {
+					alert(document.frm.check[i].value);
+				}
+			}
+		}
+	</script>
+	<div class="heart"></div>
+</body>
+</html>
