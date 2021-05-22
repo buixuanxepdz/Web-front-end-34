@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HOME</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="dist/jquery.validate.min.js"></script>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<!-- jQuery library -->
@@ -399,9 +398,9 @@
 	</div>
 	<div class="container-fluid container8" >
 
-		<div class="container" id="particles-js" data-aos="fade-up"
+		<div class="container" data-aos="fade-up"
      data-aos-duration="1000">
-			<div class="row" >
+			<div class="row rowcon8" >
 				<div class="col-lg-12 col-xl-12">
 					<div class="buildcos3">
 						Working With Us
@@ -868,14 +867,15 @@
 	</div>	
 </body>
 <script src="typed.js-master/lib/typed.js"></script>
+<script src="dist/jquery.validate.min.js"></script>
 <!-- <script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/popper.min.js"></script> -->
 	<script src="js/jquery.filterizr.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-	<script src="particles.js"></script>
-	<script src="app.js"></script>
+	<!-- <script src="particles.js"></script>
+	<script src="app.js"></script> -->
 	<script>
 		 AOS.init({
 		 	disable:'phone',
@@ -917,8 +917,22 @@
 						items:3
 					}
 				}
-			})
-		/*$("#formDemo").validate({
+			});
+		// $("#formDemo").validate({
+		// 	rules: {
+		// 		ten: "required",
+		// 		email:"required"
+				
+		// 	},
+		// 	messages: {
+		// 		ten: "Please enter your name",
+		// 		email:"Please enter your email"
+		// 	},
+		// });
+
+	
+		$("#formDemo").submit(function(event){
+			$(this).validate({
 			rules: {
 				ten: "required",
 				email:"required"
@@ -928,11 +942,8 @@
 				ten: "Please enter your name",
 				email:"Please enter your email"
 			},
-		});*/
-
-	
-		$("#formDemo").submit(function(event){
-			event.preventDefault();
+		});
+			event.preventDefault(this);
 			swal(
           'Good job !',
           'Thank you very so much',

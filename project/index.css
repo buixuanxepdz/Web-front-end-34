@@ -556,8 +556,11 @@ a{
     .concot:hover{
       background-color: #262626;
       transform: scale(1.05);
-      transition: 0.2s;
+      transition: 0.3s;
       color: white;
+      box-shadow: 0 0 10px white,
+                  0 0 20px white,
+                  0 0 40px white; 
     }
     .concot:hover .connd{
       background-color: white;
@@ -639,12 +642,13 @@ a{
     top: 0;
     z-index: -1;
   }
-  .container8,#particles-js{
+  .container8/*,#particles-js*/{
     background-color: #333333;
     width: 100%;
     padding: 80px 0; 
   }
   .buildcos3{
+   /* margin-left: 20px;*/
     font-size: 20px;
     color: white;
     font-weight: bold;
@@ -654,8 +658,12 @@ a{
     display: flex;
     justify-content: space-between;
   }
+ /* .rowcon8{
+    margin: 0 !important;
+  }*/
   .explore{
-    width: 100%;
+   /* margin-left: 20px;*/
+    width: 80%;
     height: 60px;
   }
   .explore h2{
