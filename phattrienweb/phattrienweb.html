@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			height: 100px;
+			width: 100%;
+			background-color: gray;
+		}
+		.con{
+			display: flex;
+			justify-content: space-between;
+			width: 90%;
+			margin: 0 auto;
+		}
+		.logo{
+			width: 20%;
+			height: 100px;
+			border-radius: 50%;
+			background-color: red;
+			color: white;
+			font-size: 20px;
+			text-align: center;
+			line-height: 100px;
+		}
+		.web{
+			width: 60%;
+			height: 100px;
+			line-height: 100px;
+			font-size: 30px;
+			color: blue;
+			text-align: center;
+		}
+		.fa{
+			font-size: 30px;
+			color: green;
+			width: 20%;
+			height: 100px;
+			text-align: right;
+			line-height: 100px;
+		}
+		.container2{
+			width: 100%;
+			display: flex;
+		}
+		.sidebar{
+			width: 20%;
+			background-color: aqua;
+			height: 100vh;
+		}
+		li{
+			font-size: 20px;
+			padding: 10px;
+		}
+		.rightside{
+			width: 80%;
+			height: auto;
+			position: relative;
+		}
+		.home{
+			width: 300px;
+			text-align: center;
+			height: 150px;
+			line-height: 150px;
+			color: white;
+			background-color: brown;
+			position: absolute;
+			right: 40%;
+			border-radius: 50%;
+			top: -2%;
+		}
+		.design{
+			width: 95%;
+			margin: 0 auto;
+			background-color: red;
+			height: 70px;
+			line-height: 70px;
+			text-align: center;
+			margin-top: 110px;
+			color: white;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="con">
+			<div class="logo">
+				Logo
+			</div>
+			<div class="web">
+				Web layout
+			</div>
+			<div class="fa">
+				<i class="fas fa-bars icon"></i>
+			</div>
+		</div>
+	</div>
+	<div class="container2">
+		<div class="sidebar">
+			<div style="width: 90%;margin: 0 auto;text-align: center;margin-top: 100px">
+				<ul style="list-style: none;">
+					<li>home</li>
+					<li>about</li>
+					<li>detail</li>
+					<li>content</li>
+				</ul>
+			</div>
+		</div>
+		<div class="rightside">
+			<div class="home">
+				Homepage
+			</div>
+			<div class="design">
+				Goeo căm tu đì dai lay ao
+			</div>
+		</div>
+	</div>
+</body>
+</html>
