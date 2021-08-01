@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Trealop</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/236x/09/3d/05/093d059a988878a4ba30f3d6c79926d6.jpg">
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +18,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 </head>
 <body>
+	<a href="#" class="back-to-Top">
+		<i class="fas fa-chevron-up"></i>
+	</a>
 	<div class="containerfluid1">
 		<div class="container1">
 			<div class="info">
@@ -77,7 +81,6 @@
 						<li>LINK TEXT</li>
 						<li>LINK TEXT</li>
 						<li>LINK TEXT</li>
-						<li>LONG LINK TEXT</li>
 					</ul>
 				</div>
 			</div>
@@ -350,4 +353,10 @@
 		
 	</div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	window.addEventListener('scroll',function(){
+		$(".back-to-Top").toggleClass('sticky',window.scrollY > 150)
+	});
+</script>
 </html>

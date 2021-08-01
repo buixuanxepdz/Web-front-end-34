@@ -4,6 +4,34 @@
 	box-sizing: border-box;
 	transition: 0.4s;
 }
+html{
+	scroll-behavior: smooth;
+}
+.back-to-Top{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background-color: blue;
+	position: fixed;
+	bottom: 2%;
+	right: 1%;
+	
+	opacity: 0;
+	transition: 1s;
+}
+
+.sticky{
+	z-index: 10000000;
+	opacity: 0.5;
+	background-color: #97A9BD;
+}
+.sticky:hover{
+	opacity: 1;
+}
 .containerfluid2{
 	width: 100%;
 	background-color: #000000;

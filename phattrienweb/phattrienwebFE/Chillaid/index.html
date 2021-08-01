@@ -4,10 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chillaid</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/236x/09/3d/05/093d059a988878a4ba30f3d6c79926d6.jpg">
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+	<a href="#" class="back-to-Top">
+		<i class="fas fa-chevron-up"></i>
+	</a>
 	<div class="containerfluid2">
 		<div class="container2">
 			<div class="menu">
@@ -548,5 +552,8 @@
             lineCap: 'square'
         });
     });
+    window.addEventListener('scroll',function(){
+		$(".back-to-Top").toggleClass('sticky',window.scrollY > 150)
+	});
 </script>
 </html>

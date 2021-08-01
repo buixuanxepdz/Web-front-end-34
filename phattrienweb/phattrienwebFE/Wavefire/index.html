@@ -4,10 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Wavefire </title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/236x/09/3d/05/093d059a988878a4ba30f3d6c79926d6.jpg">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+	<a href="#" class="back-to-Top">
+		<i class="fas fa-chevron-up"></i>
+	</a>
 	<div class="container1">
 		<div class="chuarow">
 			<div id="header">
@@ -440,7 +444,12 @@
 		
 	</div>
 </body>
-<script type="text/javascript">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	window.addEventListener('scroll',function(){
+		$(".back-to-Top").toggleClass('sticky',window.scrollY > 150)
+	});
+	
 	var put = document.getElementById("put");
 	var but = document.getElementById("search");
 
